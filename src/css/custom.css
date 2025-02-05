@@ -1,0 +1,88 @@
+/**
+ * Any CSS included here will be global. The classic template
+ * bundles Infima by default. Infima is a CSS framework designed to
+ * work well for content-centric websites.
+ */
+
+/* You can override the default Infima variables here. */
+:root {
+  --ifm-color-primary: #7e3fbd;
+  --ifm-color-primary-dark: #7139aa;
+  --ifm-color-primary-darker: #6b36a1;
+  --ifm-color-primary-darkest: #582c84;
+  --ifm-color-primary-light: #8b50c5;
+  --ifm-color-primary-lighter: #915ac8;
+  --ifm-color-primary-lightest: #a476d1;
+  --ifm-code-font-size: 95%;
+  --ifm-font-color-base: #b1b1b1;
+}
+
+/* For readability concerns, you should choose a lighter palette in dark mode. */
+html[data-theme='dark'] {
+  --ifm-color-primary: #a053e7;
+  --ifm-color-primary-dark: #9d4de6;
+  --ifm-color-primary-darker: #9845e5;
+  --ifm-color-primary-darkest: #943de4;
+  --ifm-color-primary-light: #af6feb;
+  --ifm-color-primary-lighter: #b77ced;
+  --ifm-color-primary-lightest: #be8aef;
+  --ifm-background-color: #000000;
+  --ifm-background-surface-color: #000000;
+}
+
+.docusaurus-highlight-code-line {
+  background-color: rgba(0, 0, 0, 0.1);
+  display: block;
+  margin: 0 calc(-1 * var(--ifm-pre-padding));
+  padding: 0 var(--ifm-pre-padding);
+}
+
+html[data-theme='dark'] .docusaurus-highlight-code-line {
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+html[data-theme='dark'] footer {
+  background-color: #000000;
+}
+
+.polka-dot {
+  background-color: #18191a;
+  background-image: radial-gradient(rgb(92, 89, 89) 6%, transparent 8%);
+  background-size: 18px 18px;
+}
+
+@media screen and (max-width : 600px) {
+  header h1[itemprop="headline"] {
+    font-size: 2rem;
+  }
+
+  header h2[itemprop="headline"] {
+    font-size: 2rem;
+  }
+
+  .markdown h1 {
+    font-size: 2rem;
+  }
+
+  .markdown h2 {
+    font-size: 1.5rem;
+  }
+
+  .markdown h3 {
+    font-size: 1.3rem;
+  }
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #ffffff !important;
+}
+
+mark {
+  background-color: rgba(255, 255, 255, 0.9);
+  color: black;
+}
