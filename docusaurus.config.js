@@ -9,9 +9,10 @@ const path = require('path');
 const config = {
   title: 'Z by Juice AI & Data Science Solutions',
   tagline: 'Application Documentation & Downloads',
-  url: 'https://zdocs.datascience.juice.com',
+  url: 'https://juice-labs.github.io',
 
-  baseUrl: '/',
+  baseUrl: '/juice-docs/',
+  trailingSlash: false,
   onBrokenLinks: 'warn',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/zby-juice-black.ico',
