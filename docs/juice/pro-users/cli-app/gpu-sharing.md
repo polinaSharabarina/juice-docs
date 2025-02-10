@@ -7,7 +7,7 @@ sidebar_position: 6
 You can share a GPU with other juice users by making it available in a Pool.
 
 :::note
-Sharing a GPU is only available on Z by Juice workstations. 
+Sharing a GPU is only available on Juice workstations. 
 :::
  
 
@@ -52,5 +52,5 @@ Sharing a GPU is only available on Z by Juice workstations.
     Use *agent service stop* to stop sharing.
     :::
 
-3. The command *agent service enable* makes the service start sharing the local GPU into that pool automatically upon reboot.  
+3. The command *agent service enable* makes the service start sharing the local GPU into that pool automatically upon reboot.    
  

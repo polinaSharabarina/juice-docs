@@ -16,7 +16,7 @@ Check the telemetry in the desktop app to see if data is uploading to the agent.
 
  
 
-### My application is not using the Z by Juice GPU.
+### My application is not using the Juice GPU.
 
 1. Verify that (1) you have an active session in the desktop client and (2) you’ve correctly set the Paths for your executable in Settings. 
 
