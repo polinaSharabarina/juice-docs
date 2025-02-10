@@ -1,15 +1,13 @@
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 import styles from './DownloadPageFeatures.module.css';
 import Link from '@docusaurus/Link';
 import { Avatar } from '@mui/material';
 import { useHistory } from '@docusaurus/router';
 import { Button } from '@mui/material';
-import aihelixtile from '../../../static/img/aistudiohelixtile.png';
 import stackmanlogo from '../../../static/img/stackmanager.png';
-import { SMDownloadList, AIStudioLoadingDownloadList, AIStudioDownloadInfo } from "../../../static/constants";
+import { SMDownloadList } from "../../../static/constants";
 
 function DButton({ props }) {
-
   const history = useHistory();
 
   return (
@@ -51,58 +49,14 @@ function DButton({ props }) {
         </Link>
       </div><br /><br />
     </div>
-
   );
 }
 
 export default function DownloadPageFeatures() {
-
-  const [AIDownloadInfo, setAIDownloadInfo] = useState(AIStudioLoadingDownloadList);
-  const [encounteredError, setError] = useState(false);
-
-  const errorElement = <div className={styles.downloadBtnError}>Error fetching download information. Please refresh or try again later.</div>
-
-  useEffect(() => {
-    const fetchData = async () => {
-      try {
-        const fetchedData = await AIStudioDownloadInfo();
-        console.log(fetchedData);
-        setAIDownloadInfo(fetchedData);
-      }
-      catch {
-        setError(true);
-      }
-
-    };
-    fetchData();
-  }, []);
-
   return (
     <section className={styles.features}>
       <div className="container" >
         <div className="row">
-
-          <div className="col">
-            <div className="text--center padding-horiz--md">
-              <img src={aihelixtile} className={styles.aihelixfeatureImgLogo} />
-            </div>
-            <div className="text--center" style={{ display: 'flex', flexDirection: 'column', justifyContent: 'center', alignItems: 'center' }}>
-              <h3> AI Studio </h3><br />
-              {encounteredError ? errorElement : AIDownloadInfo.map((ele) =>
-                <DButton key={ele.os} props={ele} />
-              )}
-              <p style={{ width: '69%' }}>
-                <span>
-                  An easy, simple, and safe way to create, collaborate, and deploy on-premises AI projects.
-                </span>
-                <br />
-                <Link to="https://reinvent.hp.com/AIStudios-Contact-Sales?jumpid=va_us_mu_mk_hc_r12139_aw_x_11824">
-                  Contact Sales
-                </Link>
-              </p>
-
-            </div>
-          </div>
           <div className="col">
             <div className="text--center padding-horiz--md">
               <img src={stackmanlogo} className={styles.featureImgLogo} />
