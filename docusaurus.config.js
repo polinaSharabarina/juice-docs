@@ -7,7 +7,7 @@ const path = require('path');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'Z by Juice AI & Data Science Solutions',
+  title: 'Juice AI & Data Science Solutions',
   tagline: 'Application Documentation & Downloads',
   url: 'https://juice-labs.github.io',
 
@@ -40,7 +40,7 @@ const config = {
       navbar: {
         title: '',
         logo: {
-          alt: 'Z by Juice Logo',
+          alt: 'Juice Logo',
           src: 'img/juice-black.png',
           srcDark: 'img/juice-white.png'
         },
@@ -53,7 +53,7 @@ const config = {
           },
           {
             href: 'https://www.juice.com/data-science',
-            label: 'Z by Juice',
+            label: 'Juice',
             position: 'right',
           },
         ],
