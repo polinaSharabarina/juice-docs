@@ -4,7 +4,7 @@ sidebar_position: 3
 ---
 # Adding an Application
 
-To run an application from the juice desktop app on the client side, you must first add it to the Remote GPU section. The juice desktop application will bridge the remote GPU into any application path you specify.  
+To run an application from the Juice desktop app on the client side, you must first add it to the Remote GPU section. The Juice desktop application will bridge the remote GPU into any application path you specify.  
 
 **Example:**
 

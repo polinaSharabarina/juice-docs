@@ -4,7 +4,7 @@ sidebar_position: 8
 ---
 # Machine-to-Machine Tokens
 
-In Juice’s juice Machine-to-Machine (M2M) tokens provide a secure way to authenticate automated processes or long-running tasks without an interactive user login. These tokens are essential for scenarios where human intervention for authentication is impractical or impossible. 
+In Juice, Machine-to-Machine (M2M) tokens provide a secure way to authenticate automated processes or long-running tasks without an interactive user login. These tokens are essential for scenarios where human intervention for authentication is impractical or impossible. 
 
 ## Key Features of M2M Tokens 
 
@@ -117,4 +117,4 @@ In Juice’s juice Machine-to-Machine (M2M) tokens provide a secure way to authe
 - Implement monitoring and alerting for unusual token usage patterns 
 
 
-Leveraging M2M tokens, you can securely automate GPU resource management and integrate juice into various workflows and systems, enhancing productivity and resource utilization. 
+Leveraging M2M tokens, you can securely automate GPU resource management and integrate Juice into various workflows and systems, enhancing productivity and resource utilization.     
