@@ -49,7 +49,7 @@ Follow the instructions on the [Ollama GitHub page](https://github.com/ollama/ol
 
 - Ensure the specified GPUs are available and part of your pool. 
 
-- Refer to the [Juice CLI documentation](/docs/boost/pro%20users/cli-app/cli-app.md) for more advanced run options. 
+- Refer to the [Juice CLI documentation](/docs/juice/pro-users/cli-app/cli-app.md) for more advanced run options. 
 
 - On Windows, be sure to add both the Ollama program path, as well as the models folder to your “Applications Selected” path list, if using the desktop application.
 :::
@@ -171,4 +171,4 @@ This setup allows you to develop and run GPU-accelerated code directly within VS
 
 - Once your session times out, VSCode will not be able to access your local GPU until you restart it. 
 
-- Make sure to close all instances of VSCode before you connect to a Remote GPU in the desktop app or CLI. 
+- Make sure to close all instances of VSCode before you connect to a Remote GPU in the desktop app or CLI.  

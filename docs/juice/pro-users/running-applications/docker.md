@@ -15,7 +15,7 @@ You can run the Juice client within a Docker container to leverage remote GPUs m
 - **Active Account**: You'll need an active Z By Juice account and access to a pool with available GPUs. 
 
  
-- **M2M Token**: Generate an M2M token from your juice account to enable automated login within the container. See the [Machine-to-Machine (M2M) Tokens](/docs/boost/pro%20users/cli-app/m2m-tokens.md) section of the Juice (Pro) User Guide for instructions. 
+- **M2M Token**: Generate an M2M token from your juice account to enable automated login within the container. See the [Machine-to-Machine (M2M) Tokens](/docs/juice/pro-users/cli-app/m2m-tokens.md) section of the Juice (Pro) User Guide for instructions. 
 
  
 

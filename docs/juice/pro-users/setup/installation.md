@@ -72,6 +72,6 @@ The juice executable will be selectable in the unzipped directory.
 
 For information on using the juice CLI application and sharing GPU resources, please refer to the following sections of our documentation: 
 
-- [The CLI Application Guide](/docs/boost/pro%20users/cli-app/cli-app.md)
+- [The CLI Application Guide](/docs/juice/pro-users/cli-app/cli-app.md)
 
-- [Sharing a GPU](/docs/boost/pro%20users/cli-app/gpu-sharing.md)
+- [Sharing a GPU](/docs/juice/pro-users/cli-app/gpu-sharing.md)

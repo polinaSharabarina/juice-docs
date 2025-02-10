@@ -19,7 +19,7 @@ Sharing a GPU is only available on Z by Juice workstations.
 
 3. Copy the command line code below, then paste and run the code from inside the directory you extracted the file from on setup. 
 
-4. While this agent is running, GPUs on this system are available within your default pool.  Visit the [juice admin guides](/docs/boost/admin/managing-pools/creating-pool.md) for information on advanced pooling. 
+4. While this agent is running, GPUs on this system are available within your default pool.  Visit the [juice admin guides](/docs/juice/admin/managing-pools/creating-pool.md) for information on advanced pooling. 
  
 
 ### Sharing With Agent Service (Runs as service) 
@@ -52,5 +52,5 @@ Sharing a GPU is only available on Z by Juice workstations.
     Use *agent service stop* to stop sharing.
     :::
 
-3. The command *agent service enable* makes the service start sharing the local GPU into that pool automatically upon reboot. 
+3. The command *agent service enable* makes the service start sharing the local GPU into that pool automatically upon reboot.  
  

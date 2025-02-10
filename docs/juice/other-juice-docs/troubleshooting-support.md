@@ -6,7 +6,7 @@ sidebar_position: 2
 
 juice has built-in support features to help you get back to what matters most – your productivity.
 
-- **Guides** links you to Juice’s juice online [user guides](/docs/boost/intro.md).
+- **Guides** links you to Juice online [user guides](/docs/juice/intro.md).
 
 - **Report Issue** takes you to a form you can complete to report a bug or performance issues to the Support team.
 
