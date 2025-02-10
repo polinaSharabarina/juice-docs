@@ -2,11 +2,11 @@
 title:  'Terms of Service'
 sidebar_position: 1
 ---
-# Z by Juice Terms of Service
+# Juice Terms of Service
 Last Updated: December 2024
 
 
-THE FOLLOWING Z BY Juice BOOST TERMS OF SERVICE (“TERMS”) BETWEEN THE Juice ENTITY NAMED AT THE FOOT OF THESE TERMS (“Juice”) AND YOU, EITHER IN YOUR OWN RIGHT OR ON BEHALF OF YOUR EMPLOYER, APPLY TO YOUR USE OF Z BY Juice BOOST (“SERVICES”). TO THE EXTENT THAT ANY SEPARATE OR ADDITIONAL TERMS APPLY TO YOUR USE OF THE SERVICES AND CONFLICT WITH THESE TERMS (FOR EXAMPLE, TERMS FROM YOUR APPLICATION SOFTWARE PROVIDER, SYSTEM INTEGRATOR, OR THIRD PARTY THAT PROVIDED YOU WITH SUBSCRIPTIONS TO THE SERVICES) THESE TERMS SHALL CONTROL YOUR USE OF AND ACCESS TO THE SERVICES. 
+THE FOLLOWING Juice TERMS OF SERVICE ("TERMS") BETWEEN THE Juice ENTITY NAMED AT THE FOOT OF THESE TERMS ("Juice") AND YOU, EITHER IN YOUR OWN RIGHT OR ON BEHALF OF YOUR EMPLOYER, APPLY TO YOUR USE OF Juice ("SERVICES"). TO THE EXTENT THAT ANY SEPARATE OR ADDITIONAL TERMS APPLY TO YOUR USE OF THE SERVICES AND CONFLICT WITH THESE TERMS (FOR EXAMPLE, TERMS FROM YOUR APPLICATION SOFTWARE PROVIDER, SYSTEM INTEGRATOR, OR THIRD PARTY THAT PROVIDED YOU WITH SUBSCRIPTIONS TO THE SERVICES) THESE TERMS SHALL CONTROL YOUR USE OF AND ACCESS TO THE SERVICES. 
 
 THE WORD “YOU” OR “CUSTOMER” AS USED IN THESE TERMS REFERS TO THE ENTITY (“EMPLOYER”) THAT HAS OBTAINED THE RIGHT TO USE SUBSCRIPTIONS AND SERVICES AND MEANS THE EMPLOYER FOR ITSELF AND ON BEHALF OF ITS EMPLOYEES AS USERS OF THE SERVICES.
 
@@ -79,7 +79,7 @@ As used in these Terms, the following capitalized terms have the following meani
 -	**General Restrictions.** Customer will not (and will not permit any third party to): (a) copy or modify the Services or any Documentation or create any derivative work from any of the foregoing; (b) remove or obscure any proprietary or other notices contained in the Services; (c) publicly disseminate information regarding the performance of the Services; or (d) exceed any usage or Subscription limitations identified in the Documentation.
 
 ## 4.	Data Collection and Customer Rights and Obligations related to Data 
--	**Data Collection** The collection, use and sharing of data, shall be governed by the [Juice Privacy Policy](https://www.juice.com/us-en/privacy/privacy-central.html). The specific data that may be captured and used by Juice is further described in the [Z BY Juice BOOST Data Management FAQ](https://zdocs.datascience.hp.com/docs/boost/datamanagement/english) document.
+-	**Data Collection** The collection, use and sharing of data, shall be governed by the [Juice Privacy Policy](https://www.juice.com/us-en/privacy/privacy-central.html). The specific data that may be captured and used by Juice is further described in the [Juice Data Management FAQ](https://zdocs.datascience.hp.com/docs/boost/datamanagement/english) document.
 
     You acknowledge and agree that Juice has permission to view and collect this data for purposes of improving Service delivery and understanding data trends or as otherwise provided in the Data Management FAQ.  Juice, at its sole discretion but to the extent reasonably necessary for the purpose of this Agreement (including but not limited to data analysis, maintenance and/or improvement of the Services or Juice products), may share data with other processors as described in the Juice Privacy Policy. Your individual personal data rights, including opt-out rights, if any, are also described in the Juice Privacy Policy. Any data reviewed and collected under this Agreement shall not be deemed Your confidential information. In addition, and as applicable, Juice’s [Customer Data Processing Addendum](https://www.juice.com/gb-en/privacy/ww-customer-addendum.html?jumpid=in_R11928_/us/en/corp/privacy-central/hp-customer-addendum).
 
