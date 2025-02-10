@@ -24,8 +24,8 @@ export default function Home() {
   const { siteConfig } = useDocusaurusContext();
   return (
     <Layout
-      title={'Documentation for Z by HP Data Science Products'}
-      description="Documentation for Z by HP Data Science Products">
+      title={'Documentation for Z by Juice Data Science Products'}
+      description="Documentation for Z by Juice Data Science Products">
       <HomepageHeader />
       <main>
         <HomepageFeatures />

@@ -1,0 +1,40 @@
+---
+title:   'CLI App Login'
+sidebar_position: 2
+---
+# CLI App Login
+
+CLI commands are downloaded to your machine when you download Juice’s juice. To initiate the CLI app, simply open a terminal window from your device’s application manager. 
+
+#### To log in: 
+
+1. Run the following command: 
+    ```powershell
+    ./boost login 
+    ```
+
+2. If you're not redirected to a browser window, copy the link that populates and paste it into your browser. Then, log in with your JuiceID. 
+
+3. Wait for confirmation before closing your browser window. 
+
+Once your login is confirmed, the CLI will update your status to *logged in*. If you need more persistent access to Juice’s juice for scriptable or automated projects, you can also use an M2M token to log in.  
+
+#### To log in with a machine-to-machine (m2m) token:
+
+1. Run the following command to generate the token: 
+    ```powershell
+    ./boost m2m create -d “<reference name of your choice>” 
+    ```
+
+2. Save the token in a secure private location.  
+    :::tip
+    Use m2m list to show available tokens. 
+    :::
+
+3. To log in, run the command: 
+    ```powershell
+    ./boost login -t “&lt;generated token&gt;” 
+    ```
+    :::tip
+    You can use m2m remove “&lt;token&gt;” to destroy a token. 
+    :::

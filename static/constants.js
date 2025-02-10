@@ -1,7 +1,8 @@
-export const WINDOWS_URL = 'https://repos.datascience.hp.com/stackman/windows/Z.by.HP.Data.Science.Stack.Manager-1.6.0.exe';
-export const WINDOWS_DOCUMENTID = 'Z.by.HP.Data.Science.Stack.Manager-1.6.0';
-export const LINUX_URL = 'https://repos.datascience.hp.com/stackman/ubuntu/focal/amd64/stackman_1.6.0_amd64.deb';
-export const LINUX_DOCUMENTID = 'stackman_1.6.0_amd64';
+// TODO: Update with new Juice URLs once available
+// export const WINDOWS_URL = 'https://repos.datascience.hp.com/stackman/windows/Z.by.HP.Data.Science.Stack.Manager-1.6.0.exe';
+// export const WINDOWS_DOCUMENTID = 'Z.by.HP.Data.Science.Stack.Manager-1.6.0';
+// export const LINUX_URL = 'https://repos.datascience.hp.com/stackman/ubuntu/focal/amd64/stackman_1.6.0_amd64.deb';
+// export const LINUX_DOCUMENTID = 'stackman_1.6.0_amd64';
 
 
 export const AIStudioDownloadInfo = async () => {

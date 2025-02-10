@@ -7,16 +7,16 @@ const path = require('path');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'Z by HP AI & Data Science Solutions',
+  title: 'Z by Juice AI & Data Science Solutions',
   tagline: 'Application Documentation & Downloads',
-  url: 'https://zdocs.datascience.hp.com',
+  url: 'https://zdocs.datascience.juice.com',
 
   baseUrl: '/',
   onBrokenLinks: 'warn',
   onBrokenMarkdownLinks: 'warn',
-  favicon: 'img/zbyhp_black.ico',
-  organizationName: 'HP Inc.', // Usually your GitHub org/user name.
-  projectName: 'ez-docs', // Usually your repo name.
+  favicon: 'img/zby-juice-black.ico',
+  organizationName: 'Juice Labs', // Usually your GitHub org/user name.
+  projectName: 'juice-docs', // Usually your repo name.
 
   presets: [
     [
@@ -39,9 +39,9 @@ const config = {
       navbar: {
         title: '',
         logo: {
-          alt: 'Z by HP Logo',
-          src: 'img/zhp-black.png',
-          srcDark: 'img/zhp-white.png'
+          alt: 'Z by Juice Logo',
+          src: 'img/juice-black.png',
+          srcDark: 'img/juice-white.png'
         },
         items: [
           {
@@ -51,15 +51,15 @@ const config = {
             label: 'Docs',
           },
           {
-            href: 'https://www.hp.com/us-en/workstations/industries/data-science.html',
-            label: 'Z by HP',
+            href: 'https://www.juice.com/data-science',
+            label: 'Z by Juice',
             position: 'right',
           },
         ],
       },
       footer: {
         style: 'dark',
-        copyright: `Copyright © ${new Date().getFullYear()} HP Development Company, L.P.`,
+        copyright: `Copyright © ${new Date().getFullYear()} Juice Labs`,
       },
       prism: {
         theme: lightCodeTheme,
