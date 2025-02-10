@@ -13,7 +13,7 @@ sidebar_position: 1
 
     ![Add Users](/img/juice/add_user.png)
 
-4. The invited user will receive an email with a link to accept your invitation. See the [Z by Juice (Pro) User Guide](/docs/boost/pro%20users/setup/account-setup.md) for additional instructions on account creation.
+4. The invited user will receive an email with a link to accept your invitation. See the [Juice (Pro) User Guide](/docs/juice/pro-users/setup/account-setup.md) for additional instructions on account creation.
 
     :::note
 

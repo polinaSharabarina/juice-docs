@@ -31,4 +31,4 @@ sidebar_position: 2
 
 3. Once redirected, complete the order form.
 
-A member of our sales team will contact you to assist with upgrading your Z by Juice organization license.
+A member of our sales team will contact you to assist with upgrading your Juice organization license.
