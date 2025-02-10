@@ -4,7 +4,7 @@ sidebar_position: 2
 ---
 # CLI App Login
 
-CLI commands are downloaded to your machine when you download Juice’s juice. To initiate the CLI app, simply open a terminal window from your device’s application manager. 
+CLI commands are downloaded to your machine when you download Juice. To initiate the CLI app, simply open a terminal window from your device's application manager. 
 
 #### To log in: 
 

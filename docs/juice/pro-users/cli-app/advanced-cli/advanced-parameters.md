@@ -4,7 +4,7 @@ sidebar_position: 2
 ---
 # Advanced Parameters 
 
-Juice’s juice offers several advanced parameters to fine-tune your GPU sessions and application runs: 
+Juice offers several advanced parameters to fine-tune your GPU sessions and application runs: 
 
  
 
