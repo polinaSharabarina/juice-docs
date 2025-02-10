@@ -4,7 +4,7 @@ sidebar_position: 2
 ---
 # Jupyterlab
 
-Use these commands to use Juices juice with JupyterLab on Windows. 
+Use these commands to use Juice with JupyterLab on Windows. 
 
 ### Install JupyterLab 
     ```powershell
