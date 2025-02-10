@@ -15,7 +15,7 @@ const config = {
   trailingSlash: false,
   onBrokenLinks: 'warn',
   onBrokenMarkdownLinks: 'warn',
-  favicon: 'img/zby-juice-black.ico',
+  favicon: 'img/juice-black.ico',
   organizationName: 'Juice Labs', // Usually your GitHub org/user name.
   projectName: 'juice-docs', // Usually your repo name.
 
