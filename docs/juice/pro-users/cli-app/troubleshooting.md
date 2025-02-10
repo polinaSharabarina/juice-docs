@@ -25,13 +25,13 @@ Check the telemetry in the desktop app to see if data is uploading to the agent.
     ```powershell
     **HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Session Manager\AppCertDLLs**
 
-    RemoteGPUAppCert = C:\Program Files\Juice\juice\RemoteGPUAppCert64.dll  
+    RemoteGPUAppCert = C:\Program Files\juice\juice\RemoteGPUAppCert64.dll  
 
-    RemoteGPUAppCertWow64 = C:\Program Files\Juice\juice\x86\RemoteGPUAppCert32.dll 
+    RemoteGPUAppCertWow64 = C:\Program Files\juice\juice\x86\RemoteGPUAppCert32.dll 
     ```
 
  
-4. Finally, verify that those files exist on your machine. You may need to add **C:\Program Files\Juice\juice** to your allowlist in in Windows Defender or other Antivirus software. 
+4. Finally, verify that those files exist on your machine. You may need to add **C:\Program Files\juice\juice** to your allowlist in in Windows Defender or other Antivirus software. 
 
  
 
