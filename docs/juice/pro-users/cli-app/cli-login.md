@@ -17,7 +17,7 @@ CLI commands are downloaded to your machine when you download Juice. To initiate
 
 3. Wait for confirmation before closing your browser window. 
 
-Once your login is confirmed, the CLI will update your status to *logged in*. If you need more persistent access to Juice’s juice for scriptable or automated projects, you can also use an M2M token to log in.  
+Once your login is confirmed, the CLI will update your status to *logged in*. If you need more persistent access to Juice for scriptable or automated projects, you can also use an M2M token to log in.  
 
 #### To log in with a machine-to-machine (m2m) token:
 

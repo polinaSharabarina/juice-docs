@@ -5,7 +5,7 @@ sidebar_position: 3
 
 # Sharing Your GPU(s)
 
-With Juice’s juice, you can add your device’s GPU(s) to a pool so your collaborators can leverage it for their projects or combine it with other GPUs to maximize processing power.
+With Juice, you can add your device's GPU(s) to a pool so your collaborators can leverage it for their projects or combine it with other GPUs to maximize processing power.
  
 
 #### To add your device’s GPU(s) to a pool: 
