@@ -4,7 +4,7 @@ sidebar_position: 4
 ---
 # Running Concurrent Workloads 
 
-#### From the desktop application: 
+
 
 1. Connect to a session.
 

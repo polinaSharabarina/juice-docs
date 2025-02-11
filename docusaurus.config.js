@@ -7,8 +7,8 @@ const path = require('path');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'Juice AI & Data Science Solutions',
-  tagline: 'Application Documentation & Downloads',
+  title: 'Juice',
+  tagline: 'Application Documentation',
   url: 'https://juice-labs.github.io',
 
   baseUrl: '/juice-docs/',

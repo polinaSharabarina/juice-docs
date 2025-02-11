@@ -56,31 +56,7 @@ Follow the instructions on the [Ollama GitHub page](https://github.com/ollama/ol
 
 
 --------------------
-### Running Ollama with Juice from the Desktop App (Windows Only) 
 
-#### To add Ollama to Juice: 
-
-1. From the Juice home page, navigate to ***Remote GPUs*** and click on **Select Applications**. 
-
-2. Add the path to your Ollama installation directory or the specific Ollama executable, then click **Save**.
-
-    **Example**:
-
-    C:\Users\[user]\AppData\Local\Programs\Ollama
-
-3. Follow steps 6-8 in [Connecting to a remote GPU](/docs/boost/pro%20users/cli-app/remote-gpu.md) to establish a connection with a remote GPU. 
-
-4. Open a new command prompt or terminal window and run Ollama commands as you normally would.
-
-    :::note
-    juice automatically uses the configured active path, which is the remote GPU by default.
-    :::
-
-:::note 
-- Ensure that your Juice session is active and connected to a suitable GPU. 
-
-- The desktop app will use the default GPU settings selected in the app. For more fine-grained control over GPU allocation, use the CLI method.
-:::
 
 #### Additional Considerations 
 
@@ -102,7 +78,7 @@ Ensure you have the correct version built (I.e. CUDA is activated), then run it 
 
 ## GPT4all 
 
-We support GPT4all similar to any other application. It should be run by either pathing to the install location in the desktop app, or running the application with the CLI. 
+We support GPT4all similar to any other application. Run the application with the CLI:
 
 ```powershell
 boost run gpt4all.exe
@@ -138,13 +114,7 @@ Edit ***run_nvidia-gpu.bat*** and add the command above to the command line, or 
 
 2. Add the VSCode executable path to Juice: 
 
-    - Open the Juice desktop application.
-
-    - Navigate to ***Remote GPUs***.
-
-    - Click on **Select Applications**.
-
-    - Add the path to your VSCode executable.
+    - Add the path to your VSCode executable to your environment.
 
 
 3. Connect to a remote GPU session in Juice.
@@ -167,8 +137,8 @@ This setup allows you to develop and run GPU-accelerated code directly within VS
 
 ### Troubleshooting 
 
-- While VSCode is running, your GPU session might timeout if the GPU is not in use, so make sure to either set a longer session timeout in Settings in the Desktop App [link to desktop timeout setting] or start running your workload immediately.  
+- While VSCode is running, your GPU session might timeout if the GPU is not in use, so make sure to start running your workload immediately.  
 
 - Once your session times out, VSCode will not be able to access your local GPU until you restart it. 
 
-- Make sure to close all instances of VSCode before you connect to a Remote GPU in the desktop app or CLI.  
+- Make sure to close all instances of VSCode before you connect to a Remote GPU with the CLI.       

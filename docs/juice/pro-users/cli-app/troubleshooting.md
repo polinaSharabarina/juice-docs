@@ -12,13 +12,13 @@ Ensure that (1) the agent is running on the correct Pool (2) the agent has no ac
 
 ### My application is not starting. 
 
-Check the telemetry in the desktop app to see if data is uploading to the agent. If data upload is in progress, please wait. Depending on the application and the network connection this may take a few minutes. 
+Check if data is uploading to the agent. If data upload is in progress, please wait. Depending on the application and the network connection this may take a few minutes. 
 
  
 
 ### My application is not using the Juice GPU.
 
-1. Verify that (1) you have an active session in the desktop client and (2) you’ve correctly set the Paths for your executable in Settings. 
+1. Verify that you've correctly set the Paths for your executable in Settings. 
 
 2. Verify that you have the following Registry Keys set: 
 
@@ -77,6 +77,6 @@ To connect to a remote GPU from an application that you are running through juic
 
 Check your Endpoint Security or Antivirus. If you see any warnings about blocked DLLs or executables, add an exception for **C:\Program Files\Juice\juice**. If you are unable to do so, please contact your IT administrator. 
 
-### My agent failed to start on the desktop app.
+### My agent failed to start.
 
-Check to see if you're already running and agent on the CLI.
+Check to see if you're already running an agent.

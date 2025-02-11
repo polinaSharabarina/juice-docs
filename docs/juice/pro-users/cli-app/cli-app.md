@@ -18,4 +18,4 @@ Get in-context help by appending –-help or -h to any command.
 ```powershell
 ./boost –h gives you top-level help; ./boost session –h gives you help with sessions. 
 ```
-For more information on the CLI application’s capabilities, see the guides on [Advanced CLI Processes](/docs/boost/pro%20users/cli-app/advanced-cli/advanced-cli.md). 
+For more information on the CLI application's capabilities, see the guides on [Advanced CLI Processes](/docs/juice/pro-users/cli-app/advanced-cli/advanced-cli.md).   
