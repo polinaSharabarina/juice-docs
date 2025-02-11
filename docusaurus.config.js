@@ -46,13 +46,12 @@ const config = {
         },
         items: [
           {
-            type: 'doc',
-            docId: 'juice/intro',
+            href: 'https://juice-labs.github.io/juice-docs/docs/juice/intro',
             position: 'left',
             label: 'Docs',
           },
           {
-            href: 'https://www.juice.com/data-science',
+            href: 'https://juicelabs.co',
             label: 'Juice',
             position: 'right',
           },
