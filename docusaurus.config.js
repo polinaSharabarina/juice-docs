@@ -41,8 +41,8 @@ const config = {
         title: '',
         logo: {
           alt: 'Juice Logo',
-          src: 'img/juice-black.png',
-          srcDark: 'img/juice-white.png'
+          src: 'img/juice-logo.png',
+          srcDark: 'img/juice-logo.png'
         },
         items: [
           {
