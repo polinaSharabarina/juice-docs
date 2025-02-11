@@ -14,7 +14,7 @@ sidebar_position: 11
 
 - Applications that are being run with juice will not fall back to a local GPU on the client when the remote GPU disconnects.  
 
-- Using a log level that’s not ERROR on the desktop app or the CLI may severely degrade performance. 
+- Using a log level that's not ERROR on the CLI may severely degrade performance. 
 
 - Client applications that leverage a remote GPU for juice may take a few minutes to close when the GPU is disconnected, depending on the application. This can cause confusion if another GPU is connected in the meantime.
 
