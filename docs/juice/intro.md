@@ -5,12 +5,8 @@ sidebar_position: 1
 
 # Welcome to Juice
 
-Juice is a new way of computing that allows data scientists and AI developers to remotely tap into idle GPUs from workstations you own. Deliver GPU power to data scientists and AI developers by giving access to idle GPUs in workstations and accelerate AI development cycles.
+Juice enables AI and Graphics workloads to run on remote GPUs.
 
-import Link from '@docusaurus/Link';
-import styles from '@site/src/components/HomepageFeatures/HomepageFeatures.module.css';
+Our software enables offloading of GPU processing for any CUDA or Vulkan application to a remote host that's running our agent. We inject our CUDA and Vulkan implementations during runtime, which means no code changes to applications.
 
-<!-- TODO: Update with new Juice URL once available -->
-{/* <Link className={styles.textBtn} style={{ margin: 0 }} to="https://www.juice.com/us-en/workstations/z-boost.html">
-    <span>Learn More</span>
-</Link> */}
+Our virtualization supports various "manyness" scenarios - e.g. we allow a single client to connect to multiple GPUs or multiple clients to share a single GPU.
