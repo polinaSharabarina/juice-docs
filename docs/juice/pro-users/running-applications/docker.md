@@ -19,7 +19,7 @@ You can run the Juice client within a Docker container to leverage remote GPUs m
 
  
 
-- **Juice Tarball**: Download the latest juice Linux tarball from the juice website.
+- **Juice Tarball**: Download the latest juice Linux tarball from juicelabs.co.
 
 ### To use juice in Docker: 
 

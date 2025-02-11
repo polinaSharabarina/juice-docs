@@ -64,7 +64,7 @@ Follow the instructions on the [Ollama GitHub page](https://github.com/ollama/ol
 
 - **Resource Requirements**: Large language models can be resource-intensive. Make sure the selected GPUs have sufficient VRAM and processing power for your chosen model. 
 
-This documentation should help get you started. For advanced usage and troubleshooting, please refer to the official [Ollama](https://github.com/ollama/ollama?tab=readme-ov-file) and [Juice documentation](https://zdocs.datascience.hp.com/docs/boost/intro). 
+This documentation should help get you started. For advanced usage and troubleshooting, please refer to the official [Ollama](https://github.com/ollama/ollama?tab=readme-ov-file) and [Juice documentation](https://juicelabs.co/docs). 
 
 --------------------
 
@@ -141,4 +141,4 @@ This setup allows you to develop and run GPU-accelerated code directly within VS
 
 - Once your session times out, VSCode will not be able to access your local GPU until you restart it. 
 
-- Make sure to close all instances of VSCode before you connect to a Remote GPU with the CLI.           
+- Make sure to close all instances of VSCode before you connect to a Remote GPU with the CLI.                      
