@@ -18,4 +18,4 @@ sidebar_position: 11
 
 - Client applications that leverage a remote GPU for juice may take a few minutes to close when the GPU is disconnected, depending on the application. This can cause confusion if another GPU is connected in the meantime.
 
-- Running the boost login command from a Linux shell may trigger an output from the browser launching (e.x. "Failed to load module 'canberra-gtk-module'", etc.). You can safely disregard this output.
+- Running the juice login command from a Linux shell may trigger an output from the browser launching (e.x. "Failed to load module 'canberra-gtk-module'", etc.). You can safely disregard this output.

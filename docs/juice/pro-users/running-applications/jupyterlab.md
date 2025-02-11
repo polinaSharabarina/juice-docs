@@ -17,7 +17,7 @@ Visit the [Jupyter Labs documentation](https://docs.jupyter.org/en/latest/) for 
 
 ### Run JupyterLab with Juice 
     ```powershell
-    boost run jupyter lab 
+    juice run jupyter lab 
     ```
 
 
@@ -74,7 +74,7 @@ If successful you should see an output similar to the one below:
 ### Example (with specific arguments)
 #### To specify GPU ID and number of GPUs: 
     ```powershell
-    boost run --gpu-ids [gpu uuid] --num-gpus 1 jupyter lab 
+    juice run --gpu-ids [gpu uuid] --num-gpus 1 jupyter lab 
     ```
 :::note
 These commands cover basic setup and execution. Adjust arguments as needed for your specific environment. 

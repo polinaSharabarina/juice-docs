@@ -32,13 +32,13 @@ gpu-type=a100
 1. **GPU Type and Capacity:** 
 
     ```powershell
-    boost agent run --labels gpu-type=a100,gpu-memory=80gb,cuda-version=11.5
+    juice agent run --labels gpu-type=a100,gpu-memory=80gb,cuda-version=11.5
     ```
 
     This command starts an agent, labeling it with an A100 GPU, 80GB of GPU memory, and CUDA version 11.5. Run the following command to use this agent:
     
     ```powershell
-    boost run --match-labels gpu-type=a100,gpu-memory=80gb my_large_model_training.py
+    juice run --match-labels gpu-type=a100,gpu-memory=80gb my_large_model_training.py
     ```
     This runs *my_large_model_training.py* on an agent with an A100 GPU and 80GB of memory.
 
@@ -47,7 +47,7 @@ gpu-type=a100
 2. **Software Environment and Version:**
 
     ```powershell
-    boost agent run --labels env=pytorch,env-version=1.9,python-version=3.8
+    juice agent run --labels env=pytorch,env-version=1.9,python-version=3.8
     ```
     
     This labels an agent with PyTorch 1.9 and Python 3.8. 
@@ -57,7 +57,7 @@ gpu-type=a100
 3. **Usage:**
 
     ```powershell
-    boost run --match-labels env=pytorch,env-version=1.9 my_pytorch_script.py
+    juice run --match-labels env=pytorch,env-version=1.9 my_pytorch_script.py
     ```
     
     This ensures my_pytorch_script.py runs on an agent with PyTorch 1.9. 
@@ -67,7 +67,7 @@ gpu-type=a100
 4. **Location and Purpose:**
     
     ```powershell
-    boost agent run --labels location=us-east,purpose=inference,network-speed=10gbps
+    juice agent run --labels location=us-east,purpose=inference,network-speed=10gbps
     ```
     
     This labels an agent for inference tasks in the US East region with a 10Gbps network. 
@@ -77,7 +77,7 @@ gpu-type=a100
 5. **Usage:**
 
     ```powershell
-    boost run --match-labels location=us-east,purpose=inference my_inference_service.py 
+    juice run --match-labels location=us-east,purpose=inference my_inference_service.py 
     ```
 
     This runs an inference service on an appropriate agent in the US East region. 
@@ -87,7 +87,7 @@ gpu-type=a100
 6. **Combining Multiple Criteria:**
 
     ```powershell
-    boost run --match-labels gpu-type=v100,env=tensorflow,location=eu-west,purpose=training my_training_job.py 
+    juice run --match-labels gpu-type=v100,env=tensorflow,location=eu-west,purpose=training my_training_job.py 
     ```
 
     This complex example runs my_training_job.py on an agent that has a V100 GPU, TensorFlow installed, is located in Western Europe, and is designated for training purposes. 
@@ -118,13 +118,13 @@ Juice also supports more complex label selectors for advanced use cases. Some of
 - **Multiple Values**: To match agents with either V100 or A100 GPUs 
 
     ```powershell
-    boost run --match-labels "gpu-type in (v100,a100)"
+    juice run --match-labels "gpu-type in (v100,a100)"
     ```
 
 - **Exclusions**: To avoid production environments 
 
     ```powershell
-    boost run --match-labels "env!=production"
+    juice run --match-labels "env!=production"
     ```
   
-With effective use of labels and match labels, juice users can create a highly organized and efficient GPU resource allocation system to ensure that each workload runs on the most appropriate environment configuration. 
+With effective use of labels and match labels, juice users can create a highly organized and efficient GPU resource allocation system to ensure that each workload runs on the most appropriate environment configuration.  

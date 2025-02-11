@@ -6,7 +6,7 @@ sidebar_position: 9
 
 Data sent from the client to the server (e.g. from the CPU to the remote GPU via **cuMemcpyHtoD()** or **cuMemcpyHtoDAsync()**), is cached on the server to save bandwidth if that data is referenced again. Caching improves load time on inference workloads by caching the model data between runs. Once the model is loaded and inference is being run, caching has no further effect on performance. Up to 16GB of data is cached per concurrent connection and that cached data will be reused for subsequent workloads run against the same server.  
 
-Caching improves performance during a training workload by caching the training data. You'll want to ensure that the size of your training data fits within the fixed 16GB cache size or structure training so that the working set of training data fits within that 16GB. If you can't limit your working set this way, then you might get better performance by disabling the cache from the Juice application or with the boost run option --disable-cache. 
+Caching improves performance during a training workload by caching the training data. You'll want to ensure that the size of your training data fits within the fixed 16GB cache size or structure training so that the working set of training data fits within that 16GB. If you can't limit your working set this way, then you might get better performance by disabling the cache from the Juice application or with the juice run option --disable-cache. 
 
 Cache eviction occurs in FIFO order; the oldest entry is evicted to make room for any new entry once the 16GB size limit is reached. Make sure that your working set (i.e. the model or training data) fits within this space for ideal performance. 
 
@@ -14,7 +14,7 @@ The cached data and amount of GPU memory are independent. Plenty of results and 
 
 #### On Windows, the cache is stored in the numbered directories beneath:
     ```powershell
-    %LocalAppData%\\Juice\\juice\\cache and  C:\\Windows\\ServiceProfiles\\boost\\AppData\\Local\\Juice\\juice\\cache
+    %LocalAppData%\\Juice\\juice\\cache and  C:\\Windows\\ServiceProfiles\\juice\\AppData\\Local\\Juice\\juice\\cache
     ```
 
 #### On Linux, the cache can be found here:
@@ -32,6 +32,6 @@ Concurrent means that if this agent is being used by more than one connection (i
 
 ### Example:
 
-100 concurrent connections can drive the cache size to up to 100 x 16GB = 1600 GBs.  
+100 concurrent connections can drive the cache size to up to 100 x 16GB = 1600 GBs.    
 
  
