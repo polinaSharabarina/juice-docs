@@ -6,7 +6,7 @@ sidebar_position: 3
 
 The most straightforward way to run an application is to use the run command, like this: 
     ```powershell
-    ./boost run <application> [<arg>...]
+    ./juice run <application> [<arg>...]
     ```
 
 The run command encapsulates several steps: it requests a session (connecting you to a remote GPU), runs the application using that remote GPU, then releases the session, freeing that remote GPU back into its pool. 

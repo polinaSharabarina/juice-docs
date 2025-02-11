@@ -19,7 +19,7 @@ You can run the Juice client within a Docker container to leverage remote GPUs m
 
  
 
-- **Juice Tarball**: Download the latest juice Linux tarball from the juice website.
+- **Juice Tarball**: Download the latest juice Linux tarball from juicelabs.co.
 
 ### To use juice in Docker: 
 
@@ -60,7 +60,7 @@ You can run the Juice client within a Docker container to leverage remote GPUs m
 
     # Copy the juice tarball and the run script 
 
-    COPY boost-linux.tar.gz . 
+    COPY juice-linux.tar.gz . 
 
     COPY --chown=ubuntu:ubuntu --chmod=777 run.sh . 
 
@@ -72,11 +72,11 @@ You can run the Juice client within a Docker container to leverage remote GPUs m
 
     
 
-    # Verify the integrity of the BOOST tarball 
+    # Verify the integrity of the juice tarball 
 
-    RUN echo "a08df200b8b78f54c37f9e330ee9a5537865f57efa168af7980bb8ade3d26e97 boost-linux.tar.gz" | sha256sum -c - && \ 
+    RUN echo "a08df200b8b78f54c37f9e330ee9a5537865f57efa168af7980bb8ade3d26e97 juice-linux.tar.gz" | sha256sum -c - && \ 
 
-        tar -xvf boost-linux.tar.gz  
+        tar -xvf juice-linux.tar.gz  
 
     
 
@@ -118,30 +118,30 @@ You can run the Juice client within a Docker container to leverage remote GPUs m
 
    # Log in to juice using the M2M token 
 
-   ./boost login --token "$m2m_token" 
+   ./juice login --token "$m2m_token" 
 
  
 
    # Execute the juice run command with the remaining arguments 
 
-   ./boost run "$@" 
+   ./juice run "$@" 
     ```
 
 3. Open a terminal, navigate to the directory containing your [Dockerfile], run.sh, and execute the following command: 
 
     ```powershell
-    docker build -t boost-client . 
+    docker build -t juice-client . 
     ```
     :::note
 
-    This command builds a Docker image named boostclient using the instructions in your [Dockerfile].
+    This command builds a Docker image named juiceclient using the instructions in your [Dockerfile].
 
     :::
 
 4. Once the image is built, you can run a container using your M2M token and desired juice run arguments:
 
     ```powershell
-    docker run -it boost-client <your_m2m_token> <boost_run_args>
+    docker run -it juice-client <your_m2m_token> <juice_run_args>
     ```
     :::tip
     
@@ -151,7 +151,7 @@ You can run the Juice client within a Docker container to leverage remote GPUs m
 
     #### Example
     ```powershell
-    docker run -it boost-client m2m_e6q_87LwpLY1dwh4FpX --pool-ids <your_pool_id> bash  
+    docker run -it juice-client m2m_e6q_87LwpLY1dwh4FpX --pool-ids <your_pool_id> bash  
 
 
     # This command launches an interactive container, logs in using your M2M token, and executes the bash command inside the container. You can replace bash with any other juice command or application you want to run remotely. 

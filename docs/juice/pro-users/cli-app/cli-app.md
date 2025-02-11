@@ -17,13 +17,13 @@ The command-line interface (CLI) is a powerful tool designed to facilitate vario
 Get in-context help by appending `--help` or `-h` to any command:
 
 ```powershell
-boost --help          # Top-level help
-boost session --help  # Help with sessions
-boost run --help      # Help with running applications
+juice --help          # Top-level help
+juice session --help  # Help with sessions
+juice run --help      # Help with running applications
 ```
 
 :::note
-Example commands are formatted for Linux machines. For Windows commands, substitute `./boost` for either `boost.exe` or `boost`.
+Example commands are formatted for Linux machines. For Windows commands, substitute `./juice` for either `juice.exe` or `juice`.
 :::
 
-For more information on advanced CLI capabilities, see the guides on [Advanced CLI Processes](/docs/juice/pro-users/cli-app/advanced-cli/advanced-cli.md).    
+For more information on advanced CLI capabilities, see the guides on [Advanced CLI Processes](/docs/juice/pro-users/cli-app/advanced-cli/advanced-cli.md).        

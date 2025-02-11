@@ -41,18 +41,17 @@ const config = {
         title: '',
         logo: {
           alt: 'Juice Logo',
-          src: 'img/juice-black.png',
-          srcDark: 'img/juice-white.png'
+          src: 'img/juice-logo.png',
+          srcDark: 'img/juice-logo.png'
         },
         items: [
           {
-            type: 'doc',
-            docId: 'juice/intro',
+            href: 'https://juice-labs.github.io/juice-docs/docs/juice/intro',
             position: 'left',
             label: 'Docs',
           },
           {
-            href: 'https://www.juice.com/data-science',
+            href: 'https://juicelabs.co',
             label: 'Juice',
             position: 'right',
           },

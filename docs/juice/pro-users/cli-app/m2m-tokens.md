@@ -19,24 +19,24 @@ In Juice, Machine-to-Machine (M2M) tokens provide a secure way to authenticate a
 
 1. This command generates a new token and displays it. Save this token in a secure location once it’s generated.
     ```powershell
-    ./boost m2m create -d "<token_name>"
+    ./juice m2m create -d "<token_name>"
     ```
 
 2. This command List existing M2M tokens:
     ```powershell
-    ./boost m2m list 
+    ./juice m2m list 
     ```
 
 3. Remove an M2M token:
     ```powershell
-    ./boost m2m remove <token>
+    ./juice m2m remove <token>
     ```
 
 ## Using M2M Tokens 
 
 **To authenticate using an M2M token**:
 ```powershell
-./boost login -t <token> 
+./juice login -t <token> 
 ```
 
 ## Example Use Cases 
@@ -45,9 +45,9 @@ In Juice, Machine-to-Machine (M2M) tokens provide a secure way to authenticate a
     ```powershell
     #!/bin/bash 
 
-    ./boost login -t m2m_token_xyz 
+    ./juice login -t m2m_token_xyz 
 
-    ./boost run --pool-id nightly_pool my_nightly_job.py 
+    ./juice run --pool-id nightly_pool my_nightly_job.py 
     ```
 
 - **CI/CD Pipeline Integration**: In your CI/CD configuration (e.g., GitLab CI): 
@@ -56,9 +56,9 @@ In Juice, Machine-to-Machine (M2M) tokens provide a secure way to authenticate a
 
     script: 
 
-    - ./boost login -t $M2M_TOKEN 
+    - ./juice login -t $M2M_TOKEN 
 
-    - ./boost run --gpu-ids $GPU_ID gpu_intensive_tests.py 
+    - ./juice run --gpu-ids $GPU_ID gpu_intensive_tests.py 
     ```
 
 - **Long-Running Server Applications**: For a server that needs persistent access to GPU resources: 
@@ -69,9 +69,9 @@ In Juice, Machine-to-Machine (M2M) tokens provide a secure way to authenticate a
 
     def gpu_task(): 
 
-    subprocess.run(["./boost", "login", "-t", "m2m_token_abc"]) 
+    subprocess.run(["./juice", "login", "-t", "m2m_token_abc"]) 
 
-    subprocess.run(["./boost", "run", "long_running_gpu_task.py"]) 
+    subprocess.run(["./juice", "run", "long_running_gpu_task.py"]) 
 
  
 
@@ -84,24 +84,24 @@ In Juice, Machine-to-Machine (M2M) tokens provide a secure way to authenticate a
 
     token = f"m2m_token_node_{node_id}" 
 
-    subprocess.run(["./boost", "login", "-t", token]) 
+    subprocess.run(["./juice", "login", "-t", token]) 
 
-    subprocess.run(["./boost", "run", f"node_{node_id}_task.py"]) 
+    subprocess.run(["./juice", "run", f"node_{node_id}_task.py"]) 
     ```
 
 - **Automated Resource Management**: Script to check and release idle GPU sessions: 
     ```powershell
     #!/bin/bash 
 
-    ./boost login -t m2m_token_manager 
+    ./juice login -t m2m_token_manager 
 
-    idle_sessions=$(./boost session list --all | grep "idle" | awk '{print $1}') 
+    idle_sessions=$(./juice session list --all | grep "idle" | awk '{print $1}') 
 
     for session in $idle_sessions; do 
 
-    ./boost session release $session 
+    ./juice session release $session 
 
-    done 
+    done
     ```
 
 ## Best Practices 
@@ -117,4 +117,4 @@ In Juice, Machine-to-Machine (M2M) tokens provide a secure way to authenticate a
 - Implement monitoring and alerting for unusual token usage patterns 
 
 
-Leveraging M2M tokens, you can securely automate GPU resource management and integrate Juice into various workflows and systems, enhancing productivity and resource utilization.     
+Leveraging M2M tokens, you can securely automate GPU resource management and integrate Juice into various workflows and systems, enhancing productivity and resource utilization.          

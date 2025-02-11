@@ -17,7 +17,7 @@ Juice offers several advanced parameters to fine-tune your GPU sessions and appl
     **Example**:
 
     ```powershell
-    boost run --disable-cache my_data_processing_app.py 
+    juice run --disable-cache my_data_processing_app.py 
     ```
  
 

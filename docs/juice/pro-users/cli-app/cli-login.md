@@ -10,7 +10,7 @@ CLI commands are downloaded to your machine when you download Juice. To initiate
 
 1. Run the following command: 
     ```powershell
-    ./boost login 
+    ./juice login 
     ```
 
 2. If you're not redirected to a browser window, copy the link that populates and paste it into your browser. Then, log in with your JuiceID. 
@@ -23,7 +23,7 @@ Once your login is confirmed, the CLI will update your status to *logged in*. If
 
 1. Run the following command to generate the token: 
     ```powershell
-    ./boost m2m create -d “<reference name of your choice>” 
+    ./juice m2m create -d "<reference name of your choice>" 
     ```
 
 2. Save the token in a secure private location.  
@@ -33,7 +33,7 @@ Once your login is confirmed, the CLI will update your status to *logged in*. If
 
 3. To log in, run the command: 
     ```powershell
-    ./boost login -t “&lt;generated token&gt;” 
+    ./juice login -t "&lt;generated token&gt;" 
     ```
     :::tip
     You can use m2m remove “&lt;token&gt;” to destroy a token. 

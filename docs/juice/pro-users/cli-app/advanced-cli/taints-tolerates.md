@@ -55,13 +55,13 @@ Taints are applied to Agents to repel certain workloads unless they explicitly t
 - **Setting a taint on an Agent**: 
 
     ```powershell
-    boost agent run --taints expensive-gpu=true 
+    juice agent run --taints expensive-gpu=true 
     ```
 
 - **Creating a session that tolerates the taint**:
 
     ```powershell
-    boost run --tolerates expensive-gpu=true my_resource_intensive_app.py 
+    juice run --tolerates expensive-gpu=true my_resource_intensive_app.py 
     ```
 
  

@@ -43,7 +43,7 @@ To specify the number of GPUs you want for a session, you must input the followi
 
 The syntax for this is:
 ```powershell
-boost run -–num-gpus 2 <application> 
+juice run -–num-gpus 2 <application> 
 ```
 
-For this to work, you must have multiple shared and available GPUs from the same machine, otherwise you will get an error message. 
+For this to work, you must have multiple shared and available GPUs from the same machine, otherwise you will get an error message.  

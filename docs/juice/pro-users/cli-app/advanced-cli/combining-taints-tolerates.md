@@ -10,7 +10,7 @@ Labels and taints can be used together for fine-grained control over workload pl
 ## Example 
 
 ```powershell
-boost run --match-labels gpu-type=a100,env=pytorch-2.0 --tolerates hipaa-compliant=required,expensive-gpu=true my_secure_ml_app.py 
+juice run --match-labels gpu-type=a100,env=pytorch-2.0 --tolerates hipaa-compliant=required,expensive-gpu=true my_secure_ml_app.py 
 ```
 :::info
 This command would run *my_secure_ml_app.py* on an agent that: 
@@ -25,4 +25,4 @@ This command would run *my_secure_ml_app.py* on an agent that:
 
 :::
 
-Juice users can leverage these features to ensure their workloads are run on appropriate hardware and in the correct environments, balancing performance needs with resource management and compliance requirements. 
+Juice users can leverage these features to ensure their workloads are run on appropriate hardware and in the correct environments, balancing performance needs with resource management and compliance requirements.  

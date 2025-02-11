@@ -24,26 +24,26 @@ Follow the instructions on the [Ollama GitHub page](https://github.com/ollama/ol
 #### With a single GPU:
 
     ```powershell
-    boost run ollama run <your_parameters>
+    juice run ollama run <your_parameters>
     ```
     **Example:**
     ```powershell
-    boost run ollama run --model mistral-7b-instruct --prompt "What is quantum physics?"
+    juice run ollama run --model mistral-7b-instruct --prompt "What is quantum physics?"
     ```
 
 #### With multiple GPUs:
     ```powershell
-    boost run --num-gpus <number_of_gpus> ollama run <your_parameters>
+    juice run --num-gpus <number_of_gpus> ollama run <your_parameters>
     ```
     **Example**:
     ```powershell
-    boost run --num-gpus 2 ollama run --model mistral-7b-instruct --prompt "What is quantum physics?" 
+    juice run --num-gpus 2 ollama run --model mistral-7b-instruct --prompt "What is quantum physics?" 
     ```
 
 :::note
 - Replace &lt;number_of_gpus&gt; and &lt;gpu_uuid&gt; with the desired values. 
 
-- You can find available GPU IDs using the boost gpu list command. 
+- You can find available GPU IDs using the juice gpu list command. 
 
 - Ensure that Ollama’s server is not running prior to launching with Juice. If it fails to leverage a remote GPU, try exiting the server and relaunching Ollama with the instructions above. 
 
@@ -64,7 +64,7 @@ Follow the instructions on the [Ollama GitHub page](https://github.com/ollama/ol
 
 - **Resource Requirements**: Large language models can be resource-intensive. Make sure the selected GPUs have sufficient VRAM and processing power for your chosen model. 
 
-This documentation should help get you started. For advanced usage and troubleshooting, please refer to the official [Ollama](https://github.com/ollama/ollama?tab=readme-ov-file) and [Juice documentation](https://zdocs.datascience.hp.com/docs/boost/intro). 
+This documentation should help get you started. For advanced usage and troubleshooting, please refer to the official [Ollama](https://github.com/ollama/ollama?tab=readme-ov-file) and [Juice documentation](https://juicelabs.co/docs). 
 
 --------------------
 
@@ -81,7 +81,7 @@ Ensure you have the correct version built (I.e. CUDA is activated), then run it 
 We support GPT4all similar to any other application. Run the application with the CLI:
 
 ```powershell
-boost run gpt4all.exe
+juice run gpt4all.exe
 ```
 
 --------------------
@@ -141,4 +141,4 @@ This setup allows you to develop and run GPU-accelerated code directly within VS
 
 - Once your session times out, VSCode will not be able to access your local GPU until you restart it. 
 
-- Make sure to close all instances of VSCode before you connect to a Remote GPU with the CLI.           
+- Make sure to close all instances of VSCode before you connect to a Remote GPU with the CLI.                                            

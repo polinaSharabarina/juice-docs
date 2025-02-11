@@ -24,11 +24,20 @@ Sharing a GPU is only available on Juice workstations.
 
 ### Sharing With Agent Service (Runs as service) 
 
-1. Install the agent service for a specific pool using *agent service install &lt;poolid&gt;*.
+1. Install the agent service for a specific pool using:
+```bash
+agent service install <poolid>
+```
 
-2. Use *agent service start* to share your local GPU.
+2. Use the following command to share your local GPU:
+```bash
+agent service start
+```
 
-3. The command *agent service enable* makes the service start automatically upon reboot.
+3. Run this command to make the service start automatically upon reboot:
+```bash
+agent service enable
+```
 
 
 ## Windows 
@@ -39,18 +48,33 @@ Sharing a GPU is only available on Juice workstations.
 
 2. Copy the pool id from the pool you wish to share to. 
 
-3. Use *agent run &lt;poolid&gt;* to start sharing your local GPU. 
+3. Use the following command to start sharing your local GPU:
+```bash
+agent run <poolid>
+```
 
  
 
 ### Sharing using Agent Service (Runs as service) 
 
-1. Install the agent service for a specific pool using *agent service install &lt;poolid&gt;*. 
+1. Install the agent service for a specific pool using:
+```bash
+agent service install <poolid>
+```
 
-2. Use *agent service start* to share your local GPU into that pool. 
+2. Use this command to share your local GPU into that pool:
+```bash
+agent service start
+```
     :::tip
-    Use *agent service stop* to stop sharing.
+    To stop sharing, use:
+    ```bash
+    agent service stop
+    ```
     :::
 
-3. The command *agent service enable* makes the service start sharing the local GPU into that pool automatically upon reboot.    
+3. Run this command to make the service start sharing the local GPU into that pool automatically upon reboot:
+```bash
+agent service enable
+```           
  
