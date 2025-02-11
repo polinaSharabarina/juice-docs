@@ -1,0 +1,8 @@
+{
+  "label": "Juice CLI",
+  "position": 3,
+  "link": {
+    "type": "generated-index",
+    "description": "Documentation for the Juice command-line interface (CLI) tool."
+  }
+}
