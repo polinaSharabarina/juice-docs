@@ -9,33 +9,7 @@ sidebar_position: 12
 Ensure that (1) the agent is running on the correct Pool (2) the agent has no active sessions (check agent status from that Pool’s page on the web) (3) the user you are trying to connect with has the ***Create Session*** permission for that pool. If there’s a session from another user on the agent, currently the only way to reset it is to restart the agent. 
 
  
-
-### My application is not starting. 
-
-Check if data is uploading to the agent. If data upload is in progress, please wait. Depending on the application and the network connection this may take a few minutes. 
-
- 
-
-### My application is not using the Juice GPU.
-
-1. Verify that you've correctly set the Paths for your executable in Settings. 
-
-2. Verify that you have the following Registry Keys set: 
-
-    ```powershell
-    **HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Session Manager\AppCertDLLs**
-
-    RemoteGPUAppCert = C:\Program Files\juice\juice\RemoteGPUAppCert64.dll  
-
-    RemoteGPUAppCertWow64 = C:\Program Files\juice\juice\x86\RemoteGPUAppCert32.dll 
-    ```
-
- 
-4. Finally, verify that those files exist on your machine. You may need to add **C:\Program Files\juice\juice** to your allowlist in in Windows Defender or other Antivirus software. 
-
- 
-
-### My agent isn’t receiving connections (not working). 
+### My agent isn't receiving connections (not working). 
 
 Verify from the output that the agent is running. You may have to add RenderWin.exe to the *Windows Firewall* rules for incoming UDP connections if you weren’t prompted to do so. 
 
@@ -66,13 +40,11 @@ To connect to a remote GPU from an application that you are running through juic
 
  
 
-### I’m seeing poor performance running my workload.
-
-- Verify that you’ve set logging level to ERROR in the desktop app or CLI 
+### I'm seeing poor performance running my workload.
 
 - Check the latency and bandwidth between your host and client. High latency (&gt;25ms) and low bandwidth (&lt;100mbs) will significantly slow down some workloads. 
 
- 
+- Verify that you've set logging level to ERROR in the CLI configuration.
 ### My Installation failed.
 
 Check your Endpoint Security or Antivirus. If you see any warnings about blocked DLLs or executables, add an exception for **C:\Program Files\Juice\juice**. If you are unable to do so, please contact your IT administrator. 

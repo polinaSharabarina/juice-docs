@@ -4,33 +4,40 @@ sidebar_position: 4
 ---
 # Running Concurrent Workloads 
 
+You can run multiple applications concurrently using the CLI in two ways:
 
+## Running Applications in the Same Pool
 
-1. Connect to a session.
+When you have a pool with sufficient GPU resources, you can run multiple applications using the same pool:
 
-2. Add multiple application paths.
+```powershell
+boost run [pool-id] application1
+boost run [pool-id] application2
+```
 
-3. Run multiple applications. 
+For example:
+```powershell
+boost run pool-1 python train.py
+boost run pool-1 jupyter lab
+```
 
+## Running Applications Across Different Pools
 
-#### From the CLI in the same pools: 
+When you need to distribute your workload across multiple pools (e.g., when no single pool has enough GPUs):
 
-Use boost run [gpu or pool id] application and repeat for each application.
+```powershell
+boost run [pool-id-1] application1
+boost run [pool-id-2] application2
+```
 
-#### From the CLI in different pools: 
-
-You may wish to use this method if you have multiple applications to run on the same client and no available system has enough GPUs to satisfy the application requirements. 
+For example:
+```powershell
+boost run pool-1 python train.py
+boost run pool-2 jupyter lab
+```
 
 :::tip
-Use
-```powershell
-boost run [gpu/pool id 1] application
-```
-followed by 
-```powershell
-boost run [gpu/pool id 2] application
-```
-and repeat as many times as necessary. 
+Use `boost pool list` to see available pools and their IDs.
 :::
 
  
