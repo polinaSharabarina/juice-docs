@@ -11,7 +11,7 @@ const config = {
   tagline: 'Application Documentation',
   url: 'https://juice-labs.github.io',
 
-  baseUrl: '/juice-docs/docs/juice/intro',
+  baseUrl: '/juice-docs/',
   trailingSlash: false,
   onBrokenLinks: 'warn',
   onBrokenMarkdownLinks: 'warn',
