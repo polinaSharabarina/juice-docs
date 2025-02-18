@@ -11,7 +11,7 @@ const config = {
   tagline: 'Application Documentation',
   url: 'https://juice-labs.github.io',
 
-  baseUrl: '/juice-docs/',
+  baseUrl: '/juice-docs/docs/juice/intro',
   trailingSlash: false,
   onBrokenLinks: 'warn',
   onBrokenMarkdownLinks: 'warn',
@@ -46,14 +46,9 @@ const config = {
         },
         items: [
           {
-            href: 'https://juice-labs.github.io/juice-docs/docs/juice/intro',
-            position: 'left',
-            label: 'Docs',
-          },
-          {
             href: 'https://juicelabs.co',
             label: 'Juice',
-            position: 'right',
+            position: 'left',
           },
         ],
       },
