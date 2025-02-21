@@ -1,3 +1,8 @@
+---
+title: 'CLI Reference'
+sidebar_position: 2
+---
+
 # CLI Reference
 
 This section documents all available CLI commands in the Juice CLI tool.

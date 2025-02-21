@@ -26,6 +26,7 @@ const config = {
       ({
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
+          routeBasePath: '/',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
@@ -42,7 +43,8 @@ const config = {
         logo: {
           alt: 'Juice Logo',
           src: 'img/juice-logo.png',
-          srcDark: 'img/juice-logo.png'
+          srcDark: 'img/juice-logo.png',
+          href: '/juice-docs/docs/juice/intro'
         },
         items: [
           {
