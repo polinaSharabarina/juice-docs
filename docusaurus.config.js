@@ -11,7 +11,7 @@ const config = {
   tagline: 'Application Documentation',
   url: 'https://juice-labs.github.io',
 
-  baseUrl: '/',
+  baseUrl: '/juice-docs/',
   trailingSlash: false,
   onBrokenLinks: 'warn',
   onBrokenMarkdownLinks: 'warn',
@@ -43,7 +43,7 @@ const config = {
           alt: 'Juice Logo',
           src: 'img/juice-logo.png',
           srcDark: 'img/juice-logo.png',
-          href: '/docs/juice/intro'
+          href: '/juice-docs/docs/juice/intro'
         },
         items: [
           {

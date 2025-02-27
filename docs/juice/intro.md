@@ -15,5 +15,3 @@ Our advanced virtualization technology supports various "manyness" scenarios, gi
 - Connect a single client to multiple GPUs for high-performance parallel computing
 - Share a single GPU among multiple clients for optimal resource utilization
 - Scale your GPU resources up or down based on your needs
-
-<Link className="button button--primary" to="https://www.juicelabs.co/">Learn more about Juice's capabilities</Link>
