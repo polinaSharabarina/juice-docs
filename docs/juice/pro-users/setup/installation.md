@@ -4,7 +4,14 @@ sidebar_position: 2
 ---
 # Installation
 
-If you're new to juice, contact your administrator to have a license allocated for you. You’ll receive an invitation via email with the subject: ***Juice Invitation***.
+Welcome to juice! This guide will walk you through the installation process.
+
+Before you begin, make sure you have:
+- Created an account on juice.com
+- Completed the Sign Up process and created an Org
+- Administrator privileges on your system
+- At least 500MB of free disk space:
+
 
 ![Download links](/img/juice/download_links.png)
 

@@ -23,12 +23,3 @@ sidebar_position: 2
 
     - **Admin** permissions let you create pools, invite new users, and assign user permissions.
 
-### To upgrade your organization license:
-
-1. Select your organization, then navigate to the **Users** tile.
-
-2. Click **Upgrade License Plan** in the top right of the screen.
-
-3. Once redirected, complete the order form.
-
-A member of our sales team will contact you to assist with upgrading your Juice organization license.
