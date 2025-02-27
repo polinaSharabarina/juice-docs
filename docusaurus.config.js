@@ -26,6 +26,7 @@ const config = {
       ({
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
+          editUrl: 'https://github.com/juice-labs/juice-docs/edit/master/',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
@@ -50,6 +51,11 @@ const config = {
             href: 'https://juicelabs.co',
             label: 'Juice',
             position: 'left',
+          },
+          {
+            href: 'https://github.com/juice-labs/juice-docs',
+            label: 'GitHub',
+            position: 'right',
           },
         ],
       },
