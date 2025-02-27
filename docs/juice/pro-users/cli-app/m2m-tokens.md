@@ -19,7 +19,7 @@ In Juice, Machine-to-Machine (M2M) tokens provide a secure way to authenticate a
 
 1. This command generates a new token and displays it. Save this token in a secure location once it’s generated.
     ```powershell
-    ./juice m2m create -d "<token_name>"
+    ./juice m2m create -d "\<token_name\>"
     ```
 
 2. This command List existing M2M tokens:

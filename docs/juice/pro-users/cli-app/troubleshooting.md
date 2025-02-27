@@ -42,7 +42,7 @@ To connect to a remote GPU from an application that you are running through juic
 
 ### I'm seeing poor performance running my workload.
 
-- Check the latency and bandwidth between your host and client. High latency (&gt;25ms) and low bandwidth (&lt;100mbs) will significantly slow down some workloads. 
+- Check the latency and bandwidth between your host and client. High latency (\>25ms) and low bandwidth (\<100mbs) will significantly slow down some workloads. 
 
 - Verify that you've set logging level to ERROR in the CLI configuration.
 ### My Installation failed.

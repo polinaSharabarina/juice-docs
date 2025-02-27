@@ -6,7 +6,6 @@ sidebar_position: 1
 
 The command-line interface (CLI) is a powerful tool designed to facilitate various operations and configurations for users. You can run commands to help manage:
 
-- Configurations and contexts
 - Agents and pools
 - Organizations and users
 - Sessions and runs

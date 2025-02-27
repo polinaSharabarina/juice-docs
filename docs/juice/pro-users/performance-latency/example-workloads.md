@@ -18,7 +18,7 @@ Further examples of the impact of latency and bandwidth on larger networks:
 
 - Server - AMD EPYC 7413, 8 CPUs, 32GB ram, NVIDIA A40 48GB 
 
-- Latency between Client &lt;-&gt; Server, 0.6ms
+- Latency between Client \<-\> Server, 0.6ms
 
 |Model Name|Mode|Average Time|juice as % of Native|
 |:-----:|:-----:|:-----:|:-----:|

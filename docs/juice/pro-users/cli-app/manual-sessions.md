@@ -29,7 +29,7 @@ There may be times where you want to make sure you are able to connect to a spec
 3. Copy the ID value of the GPU that you want to connect to. 
 
     :::tip
-    Specify the GPU’s ID for the run command using run -–gpu-ids &lt;id&gt; or by requesting a session using session request --gpu-ids &lt;id&gt;.
+    Specify the GPU’s ID for the run command using run -–gpu-ids \<id\> or by requesting a session using session request --gpu-ids \<id\>.
     :::
 
 

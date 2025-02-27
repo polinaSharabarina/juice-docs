@@ -43,7 +43,7 @@ Juice offers several advanced parameters to fine-tune your GPU sessions and appl
     ```
  
 
-- --match-labels &lt;string&gt;
+- --match-labels \<string\>
 
     Filters available GPUs based on specified labels, ensuring the task runs on a GPU with matching attributes. Use when you need to select GPUs with specific characteristics (e.g., GPU type, installed software). 
 
@@ -64,7 +64,7 @@ Juice offers several advanced parameters to fine-tune your GPU sessions and appl
     juice run --no-version-check my_experimental_app.py 
     ```
 
-- --on-connection-error &lt;string&gt;
+- --on-connection-error \<string\>
 
     Specifies the behavior when a connection error occurs. Options: [fail, continue] Use in scripts or automated workflows where you want to control how the system responds to connection issues. 
 
@@ -75,7 +75,7 @@ Juice offers several advanced parameters to fine-tune your GPU sessions and appl
     ```
  
 
-- --on-queue-timeout &lt;string&gt;
+- --on-queue-timeout \<string\>
 
     Defines the action to take when the queue time exceeds the specified limit. Options: [fail, continue] Use in time-sensitive scenarios or when you need to control the behavior of long-waiting jobs. 
 
@@ -86,7 +86,7 @@ Juice offers several advanced parameters to fine-tune your GPU sessions and appl
     ```
  
 
-- --pool-ids &lt;string&gt;
+- --pool-ids \<string\>
 
     Restricts GPU selection to specific pools identified by their IDs. Use for resource management in multi-team setups or when you need to use GPUs from particular pools.  
 
@@ -97,7 +97,7 @@ Juice offers several advanced parameters to fine-tune your GPU sessions and appl
     ```
  
 
-- --queue-timeout &lt;uint&gt;
+- --queue-timeout \<uint\>
 
     Sets the maximum time (in seconds) to wait for GPU availability. Use to prevent indefinite waits in resource-constrained environments or for time-sensitive applications.  
 
@@ -108,7 +108,7 @@ Juice offers several advanced parameters to fine-tune your GPU sessions and appl
     ```
  
 
-- --tolerates &lt;string&gt;
+- --tolerates \<string\>
 
     Specifies which taints the session can tolerate, allowing use of GPUs with specific constraints. Use when you need to use GPUs that have been marked with certain restrictions or characteristics.
 

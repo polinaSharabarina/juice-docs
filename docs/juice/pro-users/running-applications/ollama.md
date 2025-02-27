@@ -41,7 +41,7 @@ Follow the instructions on the [Ollama GitHub page](https://github.com/ollama/ol
     ```
 
 :::note
-- Replace &lt;number_of_gpus&gt; and &lt;gpu_uuid&gt; with the desired values. 
+- Replace \<number_of_gpus\> and \<gpu_uuid\> with the desired values. 
 
 - You can find available GPU IDs using the juice gpu list command. 
 
