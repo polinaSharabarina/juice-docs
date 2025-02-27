@@ -19,7 +19,12 @@ Currently, only the client is supported when running in WSL on Windows.
 :::
 
 
-## Client Device Prerequisites for Running
+:::note
+Graphical apps are currently only supported on Windows clients. Both Linux and Windows agents support graphics.
+:::
+
+
+## Client Prerequisites for Running Applications
 
 ### Windows 
 
@@ -49,7 +54,7 @@ If you're running on a virtual machine with graphics drivers that don't support 
     :::
 
 
-## Client Device Prerequisites for Hosting 
+## Agent Device Prerequisites for GPU Hostings
 
 On all platforms an NVIDIA GPU with an installed driver version 535 or greater, and a CUDA driver version 12.2 through to 12.7. 
 

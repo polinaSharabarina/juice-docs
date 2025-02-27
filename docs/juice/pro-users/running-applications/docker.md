@@ -145,7 +145,7 @@ You can run the Juice client within a Docker container to leverage remote GPUs m
     ```
     :::tip
     
-    Replace &lt;your_m2m_token&gt; with your actual M2M token. Replace &lt;boost_run_args&gt; with the desired arguments for the juice run command (i.e. --pool-ids, --gpu-ids, etc.).
+    Replace &lt;your_m2m_token&gt; with your actual M2M token. Replace &lt;juice_run_args&gt; with the desired arguments for the juice run command (i.e. --pool-ids, --gpu-ids, etc.).
 
     :::
 

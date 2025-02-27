@@ -28,7 +28,7 @@ Juice offers several advanced parameters to fine-tune your GPU sessions and appl
     **Example**:
 
     ```powershell
-    boost run --disable-compression my_high_fidelity_image_processing.py 
+    juice run --disable-compression my_high_fidelity_image_processing.py 
     ```
  
 
@@ -39,7 +39,7 @@ Juice offers several advanced parameters to fine-tune your GPU sessions and appl
     **Example**:
 
     ```powershell
-    boost run --ephemeral my_benchmarking_script.py 
+    juice run --ephemeral my_benchmarking_script.py 
     ```
  
 
@@ -50,7 +50,7 @@ Juice offers several advanced parameters to fine-tune your GPU sessions and appl
     **Example**:
 
     ```powershell
-    boost run --match-labels "gpu-type=v100,env=pytorch" my_ml_model.py 
+    juice run --match-labels "gpu-type=v100,env=pytorch" my_ml_model.py 
     ```
  
 
@@ -61,7 +61,7 @@ Juice offers several advanced parameters to fine-tune your GPU sessions and appl
     **Example**:
 
     ```powershell
-    boost run --no-version-check my_experimental_app.py 
+    juice run --no-version-check my_experimental_app.py 
     ```
 
 - --on-connection-error &lt;string&gt;
@@ -71,7 +71,7 @@ Juice offers several advanced parameters to fine-tune your GPU sessions and appl
     **Example**:
 
     ```powershell
-    boost run --on-connection-error continue my_resilient_app.py 
+    juice run --on-connection-error continue my_resilient_app.py 
     ```
  
 
@@ -82,7 +82,7 @@ Juice offers several advanced parameters to fine-tune your GPU sessions and appl
     **Example**:
 
     ```powershell
-    boost run --on-queue-timeout continue --queue-timeout 300 my_long_running_job.py 
+    juice run --on-queue-timeout continue --queue-timeout 300 my_long_running_job.py 
     ```
  
 
@@ -93,7 +93,7 @@ Juice offers several advanced parameters to fine-tune your GPU sessions and appl
     **Example**:
 
     ```powershell
-    boost run --pool-ids pool1,pool2 my_app.py 
+    juice run --pool-ids pool1,pool2 my_app.py 
     ```
  
 
@@ -104,7 +104,7 @@ Juice offers several advanced parameters to fine-tune your GPU sessions and appl
     **Example**:
 
     ```powershell
-    boost run --queue-timeout 600 my_time_sensitive_app.py 
+    juice run --queue-timeout 600 my_time_sensitive_app.py 
     ```
  
 
@@ -115,7 +115,7 @@ Juice offers several advanced parameters to fine-tune your GPU sessions and appl
     **Example**:
 
     ```powershell
-    boost run --tolerates "high-priority=true" my_critical_task.py
+    juice run --tolerates "high-priority=true" my_critical_task.py
     ```
 
 ## Global Command Options
@@ -124,7 +124,7 @@ Juice offers several advanced parameters to fine-tune your GPU sessions and appl
 
     Directs CLI output to a specified file instead of standard output. Useful for debugging, creating audit trails, or when you need to review operation logs later.
 
-    **Example**: boost --log-file=/path/to/boost.log run my_app.py
+    **Example**: juice --log-file=/path/to/juice.log run my_app.py
 
 
 - --log-level
@@ -134,7 +134,7 @@ Juice offers several advanced parameters to fine-tune your GPU sessions and appl
     **Example**:
 
     ```powershell
-    boost --log-level debug run my_problematic_app.py 
+    juice --log-level debug run my_problematic_app.py 
     ```
  
 
@@ -145,7 +145,7 @@ Juice offers several advanced parameters to fine-tune your GPU sessions and appl
     **Example**:
 
     ```powershell
-    boost --quiet run my_background_task.py 
+    juice --quiet run my_background_task.py 
     ```
  
 
@@ -156,7 +156,7 @@ Juice offers several advanced parameters to fine-tune your GPU sessions and appl
     **Example**:
 
     ```powershell
-    boost --no-banner run my_app.py 
+    juice --no-banner run my_app.py 
     ```
  
 
@@ -167,7 +167,7 @@ Juice offers several advanced parameters to fine-tune your GPU sessions and appl
     **Example**:
 
     ```powershell
-    boost --controller=https://custom-controller.example.com run my_app.py 
+    juice --controller=https://custom-controller.example.com run my_app.py 
     ```
 
 These advanced parameters provide fine-grained control over Juice's behavior, allowing users to optimize their workflows for specific use cases and environments.
