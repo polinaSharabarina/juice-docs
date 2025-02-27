@@ -23,7 +23,7 @@ Once your login is confirmed, the CLI will update your status to *logged in*. If
 
 1. Run the following command to generate the token: 
     ```powershell
-    ./juice m2m create -d "\<reference name of your choice\>" 
+    ./juice m2m create -d "<reference name of your choice>" 
     ```
 
 2. Save the token in a secure private location.  
@@ -33,7 +33,7 @@ Once your login is confirmed, the CLI will update your status to *logged in*. If
 
 3. To log in, run the command: 
     ```powershell
-    ./juice login -t "\<generated token\>" 
+    ./juice login -t "<generated token>" 
     ```
     :::tip
     You can use m2m remove "\<token\>" to destroy a token. 

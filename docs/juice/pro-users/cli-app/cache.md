@@ -14,12 +14,12 @@ The cached data and amount of GPU memory are independent. Plenty of results and 
 
 #### On Windows, the cache is stored in the numbered directories beneath:
     ```powershell
-    %LocalAppData%\\Juice\\juice\\cache and  C:\\Windows\\ServiceProfiles\\juice\\AppData\\Local\\Juice\\juice\\cache
+    %LocalAppData%\\Juice GPU\\cache and  C:\\Windows\\ServiceProfiles\\juice\\AppData\\Local\\Juice GPU\\cache
     ```
 
 #### On Linux, the cache can be found here:
     ```powershell
-    ~/.cache/Juice/juice/cache
+    ~/.cache/Juice/cache
     ```
 
 :::note

@@ -54,7 +54,7 @@ If you're running on a virtual machine with graphics drivers that don't support 
     :::
 
 
-## Agent Device Prerequisites for GPU Hostings
+## Agent Device Prerequisites for GPU Hosting
 
 On all platforms an NVIDIA GPU with an installed driver version 535 or greater, and a CUDA driver version 12.2 through to 12.7. 
 
@@ -62,7 +62,7 @@ On all platforms an NVIDIA GPU with an installed driver version 535 or greater, 
 
 - Windows 10 or 11 
 
-### Linux 
+### Linux s
 
 - Ubuntu 20.04 or greater, Debian 11 or greater 
 

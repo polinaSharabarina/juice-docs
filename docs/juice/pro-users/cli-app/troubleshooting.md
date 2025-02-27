@@ -47,7 +47,7 @@ To connect to a remote GPU from an application that you are running through juic
 - Verify that you've set logging level to ERROR in the CLI configuration.
 ### My Installation failed.
 
-Check your Endpoint Security or Antivirus. If you see any warnings about blocked DLLs or executables, add an exception for **C:\Program Files\Juice\juice**. If you are unable to do so, please contact your IT administrator. 
+Check your Endpoint Security or Antivirus. If you see any warnings about blocked DLLs or executables, add an exception for **C:\Program Files\Juice GPU\juice**. If you are unable to do so, please contact your IT administrator. 
 
 ### My agent failed to start.
 
