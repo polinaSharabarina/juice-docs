@@ -4,31 +4,27 @@ sidebar_position: 2
 ---
 # Installation
 
-Welcome to juice! This guide will walk you through the installation process.
+Welcome to Juice! This guide will walk you through the installation process.
 
 Before you begin, make sure you have:
-- Created an account on juice.com
-- Completed the Sign Up process and created an Org
+- An account on [app.juicelabs.co](https://app.juicelabs.co) (if you don't have one, sign up or reach out to info@juicelabs.co)
 - Administrator privileges on your system
-- At least 500MB of free disk space:
+- At least 500MB of free disk space
 
+Log in to [app.juicelabs.co](https://app.juicelabs.co):
 
 ![Download links](/img/juice/download_links.png)
 
 ### Windows
-1. Click on the download link for the Windows release on the juice website.
-
+1. Click on the download link for the Windows release.
 2. Run the installer and follow the steps outlined in the installation wizard.
 
 
 ### Linux
-
-#### Downloading the juice for Linux requires a few more steps:
-
-1. Click the download link for the Linux release on the juice website. 
+1. Click the download link for the Linux release. 
 
     :::note
-    Depending on your Linux configuration, you may need to download the file on a different system and transfer it to your intended Linux client system. 
+    Depending on your Linux configuration, you may need to download the file on a different system and transfer it to the Linux system where you intend to run Juice. 
     :::
  
 2. Unzip the downloaded file: 
@@ -37,15 +33,11 @@ Before you begin, make sure you have:
     tar -xf [juice_linux_release].tar 
     ```
 
-3. Replace ***juice_linux_release.tar*** with the filename of the downloaded archive. 
-
-The juice executable will be selectable in the unzipped directory. 
-
-
+   ...replacing `juice_linux_release` with the filename of the downloaded archive.
 
 ## (Optional) Adding juice to PATH 
 
-#### To run juice from any directory using the juice command: 
+#### To enable your system to run `juice` from any directory: 
 
 1. Open your shell's configuration file in a text editor:
 
@@ -59,17 +51,15 @@ The juice executable will be selectable in the unzipped directory.
     export PATH=$PATH:/path/to/juice_directory
     ```
 
-3. Replace ***/path/to/juice_directory*** with the actual path to the directory containing the juice executable. 
+...replacing `/path/to/juice_directory` with the actual path to the directory containing the Juice executable. 
 
-4. Save and exit the editor. 
+3. Save and exit the editor. 
     :::tip
     In nano, you can save and exit by pressing Ctrl+X, then Y, then Enter. 
     :::
 
-5. Apply the changes to your current session: 
+4. Apply the changes to your current session: 
 
     ```powershell
     source ~/.bashrc 
     ```
-
-6. After completing these steps, you should be able to run juice by typing ***juice*** in any terminal. 
