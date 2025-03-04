@@ -27,14 +27,15 @@ Once your login is confirmed, the CLI will update your status to *logged in*. If
     ```
 
 2. Save the token in a secure private location.  
-    :::tip
-    Use m2m list to show available tokens. 
-    :::
 
 3. To log in, run the command: 
     ```powershell
-    ./juice login -t "<generated token>" 
+    ./juice login -t "<reference name of your generated token>" 
     ```
-    :::tip
-    You can use m2m remove "\<token\>" to destroy a token. 
-    :::
+
+:::tip
+Use `m2m list` to show available tokens. 
+
+To destroy a token use `m2m remove "<reference name of your generated token>"`.
+:::
+    
