@@ -9,15 +9,37 @@ import Link from '@docusaurus/Link';
 
 ## What is Juice?
 
-Juice is GPU-over-IP: client/server software that allows GPUs to be pooled, shared, and remotely over a standard TCP/IP network. With the Juice agent running on a Linux or Windows system with a physical GPU, 
+Juice is GPU-over-IP: deployable GPUaaS software that allows GPUs to be pooled, shared, and remotely over a standard TCP/IP network.
 
 No modifications are necessary to application software - client applications are unaware that the physical GPU is remote. Juice software runs on physical machines, VMs, and containers on both Linux and Windows. The only hard requirements are a physical GPU to serve its capacity into a pool, and standard network connectivity.
+
+Juice is simple to use - it consists of:
+
+- software you install on your systems that contains both the Agent (for making physical GPUs on that system available remotely in a shared pool) and the Client (for running GPU-hungry applications on that system using remote GPU from a shared pool) - this install allows you to run command line (CLI) Juice
+- a Juice-hosted Controller that governs sharing, pools, and connections among Clients and Agents (we manage the Controller; you don't need to worry about that part)
+- a browser-based admin interface to the Controller so you can manage users, pools, etc. for your Org (and Org could be a team or company; it's how we license Juice to you and organize users, pools, and sharing)
+- COMING SOON: a Windows Desktop app for running applications and sharing GPUs
+- COMING SOON: a reporting interface that gives admins deep visibility to the activity within their Org
+
+ ![Juice Components](/img/juice/JuiceComponents.png)
+
+Today Juice works with:
+
+- NVIDIA GPUs
+- CUDA-based AI workloads, e.g. those running on top of PyTorch or TensorFlow frameworks
+- Many graphics applications*, like:
+  - Unreal
+  - Unity
+  - Blender
+  - Maya
+  - Revit
+- Any physical, virtual, or container-based system
+ 
+*_Graphics applications are not supported on Linux clients yet, but Linux systems can act as GPU agents for any workload including graphics._
 
 Once Juice is installed, launching an application to use remote GPU is as simple as running it through our command line tool `juice`. For example:
 
 Run PyTorch-based inference with `juice python pytorch/resnet.py`
-
-Run 3DMark with `juice "C:\Program Files\UL\3DMark\3DMark.exe"`
 
 ## Why Juice?
 
