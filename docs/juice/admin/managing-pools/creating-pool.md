@@ -1,13 +1,13 @@
 ---
-sidebar_label: 'Creating a New Pool'
+sidebar_label: 'Creating a Pool'
 sidebar_position: 1
 ---
 
 # Creating a New Pool
 
-1. Select your organization, then navigate to the **Pools** tile.
+1. Select your organization, then navigate to Pools in the lefthand nav.
 
-2. Click **Create new pool**.
+2. Click **Create Pool**.
 
     ![New Pool](/img/juice/new_pool.png)
 
