@@ -19,7 +19,7 @@ In Juice, Machine-to-Machine (M2M) tokens provide a secure way to authenticate a
 
 1. This command generates a new token and displays it. Save this token in a secure location once it’s generated.
     ```powershell
-    ./juice m2m create -d "\<token_name\>"
+    ./juice m2m create -d '<token name>'
     ```
 
 2. This command List existing M2M tokens:
@@ -29,14 +29,14 @@ In Juice, Machine-to-Machine (M2M) tokens provide a secure way to authenticate a
 
 3. Remove an M2M token:
     ```powershell
-    ./juice m2m remove <token>
+    ./juice m2m remove '<token name>'
     ```
 
 ## Using M2M Tokens 
 
 **To authenticate using an M2M token**:
 ```powershell
-./juice login -t <token> 
+./juice login -t '<token>'
 ```
 
 ## Example Use Cases 
@@ -45,7 +45,7 @@ In Juice, Machine-to-Machine (M2M) tokens provide a secure way to authenticate a
     ```powershell
     #!/bin/bash 
 
-    ./juice login -t m2m_token_xyz 
+    ./juice login -t 'my_m2m_token_xyz' 
 
     ./juice run --pool-id nightly_pool my_nightly_job.py 
     ```
@@ -56,16 +56,14 @@ In Juice, Machine-to-Machine (M2M) tokens provide a secure way to authenticate a
 
     script: 
 
-    - ./juice login -t $M2M_TOKEN 
+    - ./juice login -t 'my_m2m_token_xyz'
 
-    - ./juice run --gpu-ids $GPU_ID gpu_intensive_tests.py 
+    - ./juice run --gpu-ids '<the gpu id>' gpu_intensive_tests.py 
     ```
 
 - **Long-Running Server Applications**: For a server that needs persistent access to GPU resources: 
     ```powershell
     import subprocess 
-
- 
 
     def gpu_task(): 
 
@@ -93,7 +91,7 @@ In Juice, Machine-to-Machine (M2M) tokens provide a secure way to authenticate a
     ```powershell
     #!/bin/bash 
 
-    ./juice login -t m2m_token_manager 
+    ./juice login -t 'my_m2m_token_xyz' 
 
     idle_sessions=$(./juice session list --all | grep "idle" | awk '{print $1}') 
 
