@@ -7,11 +7,25 @@ import Link from '@docusaurus/Link';
 
 # Welcome to Juice
 
-Juice enables AI and Graphics workloads to run on remote GPUs, making high-performance computing accessible and efficient for everyone.
+## What is Juice?
 
-Our innovative software seamlessly enables offloading of GPU processing for any CUDA or Vulkan application to a remote host that's running our agent. We inject our CUDA and Vulkan implementations during runtime, which means no code changes to your applications - just connect and start accelerating your workloads immediately.
+Juice is GPU-over-IP: client/server software that allows GPUs to be pooled, shared, and remotely over a standard TCP/IP network. With the Juice agent running on a Linux or Windows system with a physical GPU, 
 
-Our advanced virtualization technology supports various "manyness" scenarios, giving you unprecedented flexibility in GPU resource management:
-- Connect a single client to multiple GPUs for high-performance parallel computing
-- Share a single GPU among multiple clients for optimal resource utilization
-- Scale your GPU resources up or down based on your needs
+No modifications are necessary to application software - client applications are unaware that the physical GPU is remote. Juice software runs on physical machines, VMs, and containers on both Linux and Windows. The only hard requirements are a physical GPU to serve its capacity into a pool, and standard network connectivity.
+
+Once Juice is installed, launching an application to use remote GPU is as simple as running it through our command line tool `juice`. For example:
+
+Run PyTorch-based inference with `juice python pytorch/resnet.py`
+
+Run 3DMark with `juice "C:\Program Files\UL\3DMark\3DMark.exe"`
+
+## Why Juice?
+
+GPU use is hampered by a major limitation: a GPU-hungry application can only run in the same physical machine as the GPU itself. This limitation causes local-resourcing problems -- there's either not enough (or none, depending on the size and power needs of the device), or GPU capacity sits idle and wasted (global utilization of GPU capacity is estimated at 15%).
+
+By abstracting application hosts from physical GPUs, Juice decouples GPU-consuming clients from GPU-providing servers.  Benefits include (but are not limited to):
+
+1. Any client workload can access GPU from anywhere, creating new capabilities
+1. GPU capacity is pooled and shared across any deployment area, from local to regional/intercloud -- GPU hardware scales independently of other computing resources
+1. GPU utilization is driven higher, and stranded capacity is rescued, by dynamically adding multiple clients to the same GPU based on resource needs and availability -- i.e. more workloads are served with the same GPU hardware
+
