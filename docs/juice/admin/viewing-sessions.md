@@ -1,11 +1,11 @@
 ---
-sidebar_label: 'Viewing Previous and Current Sessions'
+sidebar_label: 'Viewing Sessions'
 sidebar_position: 5
 ---
 
 # Viewing Previous and Current Sessions
 
-1. Select your organization, then navigate to the ***Sessions*** tile.
+1. Select your organization, then navigate to Sessions in the lefthand nav.
 
     ![Sessions](/img/juice/sessions.png)
 
