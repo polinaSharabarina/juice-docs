@@ -2,14 +2,10 @@
 title:  'Troubleshooting and Support'
 sidebar_position: 2
 ---
-# Troubleshooting and Support
+# Troubleshooting & Support
 
-Juice has built-in support features to help you get back to what matters most – your productivity.
+From the web interface at [app.juicelabs.co](https://app.juicelabs.co/), click on the Feedback tab in the bottom right of the window to expand the feedback form:
 
-- **Guides** links you to Juice online [user guides](/docs/juice/intro.md).
+![Feedback Widget](/img/juice/feedback.png)
 
-- **Report Issue** takes you to a form you can complete to report a bug or performance issues to the Support team.
-
-- **Feedback or Idea** lets you submit feedback on your experience with Juice directly.
-
-- **Run Guide Tutorial** triggers the virtual tour that appears when you first open the application.
+Someone from the Juice team will be in touch to help with your issue.
