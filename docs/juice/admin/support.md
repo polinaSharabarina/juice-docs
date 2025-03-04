@@ -5,13 +5,8 @@ sidebar_position: 6
 
 # Support
 
-As an admin user, you have a few options to contact support for Juice that standard users don't have access to.
+From the admin web interface at [app.juicelabs.co](https://app.juicelabs.co/), click on the Feedback tab in the bottom right of the window to expand the feedback form:
 
-### To get support:
+![Feedback Widget](/img/juice/feedback.png)
 
-1. Click on the ***Support*** tab. A popup will appear with two options:
-
-    - **Guides**: Links to the online Juice User Guides and Support Documentation
-    - **Feedback or Idea**: An in-app form that lets you give feedback, share ideas, and more with the Juice team.
-
-    - **Report Issue**: An in-app form that lets you report bugs.
+Someone from the Juice team will be in touch to help with your issue.
