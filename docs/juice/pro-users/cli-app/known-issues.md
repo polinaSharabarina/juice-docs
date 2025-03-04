@@ -6,7 +6,7 @@ sidebar_position: 11
 
 - Running an agent inside a Docker container requires host networking, which is not supported in some environments (i.e. Docker Desktop, macOS, and VM-based containers). WSL sharing GPUs has the same limitations as Docker WSL and is subnetted with the host machine. 
 
-- DX11/DX12/OpenGL/Vulkan are the only supported graphics APIs. Most graphical software should work out of the box. CUDA 10-12.4 is supported for compute. Pytorch and Tensorflow binaries should also work out of the box. 
+- DX11/DX12/OpenGL/Vulkan are the only supported graphics APIs. Most graphical software should work out of the box. CUDA 10-12.4 is supported for compute. PyTorch and TensorFlow binaries also work out of the box. 
 
 - Resolutions beyond 4K may have questionable performance due to video encoder/decoder limitations. This will be addressed with a software encoder in the future. 
 
