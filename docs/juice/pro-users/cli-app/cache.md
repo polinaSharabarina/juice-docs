@@ -14,7 +14,7 @@ The cached data and amount of GPU memory are independent. Plenty of results and 
 
 #### On Windows, the cache is stored in the numbered directories beneath:
     ```powershell
-    %LocalAppData%\\Juice GPU\\cache and  C:\\Windows\\ServiceProfiles\\juice\\AppData\\Local\\Juice GPU\\cache
+    %LocalAppData%\Juice GPU\cache and C:\Windows\ServiceProfiles\juice\AppData\Local\Juice GPU\cache
     ```
 
 #### On Linux, the cache can be found here:
@@ -23,9 +23,7 @@ The cached data and amount of GPU memory are independent. Plenty of results and 
     ```
 
 :::note
-
 You may delete these numbered directories while not sharing your GPU to recover disk space. 
-
 :::
 
 Concurrent means that if this agent is being used by more than one connection (i.e. different users, different workloads, etc.) at the same time, each concurrent connection might also consume up to 16GB of cache storage in the agent.  There is currently no explicit limit on the number of concurrent connections a server can accept beyond the GPUs work limit.  
