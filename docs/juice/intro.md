@@ -11,7 +11,9 @@ import Link from '@docusaurus/Link';
 
 Juice is GPU-over-IP: deployable GPUaaS software that allows GPUs to be pooled, shared, and remotely over a standard TCP/IP network.
 
-No modifications are necessary to application software - client applications are unaware that the physical GPU is remote. Juice software runs on physical machines, VMs, and containers on both Linux and Windows. The only hard requirements are a physical GPU to serve its capacity into a pool, and standard network connectivity.
+No modifications are necessary to application software - client applications are unaware that the physical GPU is remote. Juice software runs on physical machines, VMs, and containers on both Linux and Windows. The only hard requirements are physical GPUs to serve capacity into pools, and standard network connectivity.
+
+ ![Juice Components](/img/juice/JuiceComponents.png)
 
 Juice is simple to use - it consists of:
 
@@ -20,8 +22,6 @@ Juice is simple to use - it consists of:
 - a browser-based admin interface to the Controller so you can manage users, pools, etc. for your Org (and Org could be a team or company; it's how we license Juice to you and organize users, pools, and sharing)
 - COMING SOON: a Windows Desktop app for running applications and sharing GPUs
 - COMING SOON: a reporting interface that gives admins deep visibility to the activity within their Org
-
- ![Juice Components](/img/juice/JuiceComponents.png)
 
 Today Juice works with:
 
