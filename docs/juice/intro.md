@@ -17,9 +17,9 @@ No modifications are necessary to application software - client applications are
 
 Juice is simple to use - it consists of:
 
-- software you install on your systems that contains both the Agent (for making physical GPUs on that system available remotely in a shared pool) and the Client (for running GPU-hungry applications on that system using remote GPU from a shared pool) - this install allows you to run command line (CLI) Juice
-- a Juice-hosted Controller that governs sharing, pools, and connections among Clients and Agents (we manage the Controller; you don't need to worry about that part)
-- a browser-based admin interface to the Controller so you can manage users, pools, etc. for your Org (and Org could be a team or company; it's how we license Juice to you and organize users, pools, and sharing)
+- Installable **Client** and **Agent**: software you install on your systems that contains both the **Agent** (for making physical GPUs on that system available remotely in a shared pool) and the **Client** (for running GPU-hungry applications on that system using remote GPU from a shared pool) - this install allows you to run command line (CLI) Juice.
+- a Juice-hosted **Controller** that governs sharing, pools, and connections among Clients and Agents (we manage the Controller; you don't need to worry about that part)
+- a browser-based **Admin interface** to the Controller so you can manage users, pools, etc. for your Org (and Org could be a team or company; it's how we license Juice to you and organize users, pools, and sharing)
 - COMING SOON: a Windows Desktop app for running applications and sharing GPUs
 - COMING SOON: a reporting interface that gives admins deep visibility to the activity within their Org
 
