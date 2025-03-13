@@ -30,7 +30,7 @@ Graphical apps are currently only supported on Windows clients. Both Linux and W
 
 - Windows 10 or Windows 11 
 
-If you're running on a virtual machine with graphics drivers that don't support Vulkan, you must install the [Vulkan Runtime](https://sdk.lunarg.com/sdk/download/latest/windows/vulkan-runtime.exe) separately.
+If you're running on a virtual machine with graphics drivers that don't support Vulkan, you must install the [Vulkan Runtime](https://vulkan.lunarg.com/sdk/home#windows) separately.
 
 
 ### Linux 
