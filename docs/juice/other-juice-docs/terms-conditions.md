@@ -4,7 +4,7 @@ sidebar_position: 3
 ---
 # Terms & Conditions
 
-**By downloading, installing, and using the Juice Service, you agree that you have read and understand this agreement and agree to be bound by its terms:**
+**By downloading, installing, or using the Juice Service, you agree that you have read and understand this agreement and agree to be bound by its terms:**
 
 ***
 
@@ -41,3 +41,5 @@ Each party will have the right to terminate this Agreement if the other party br
 You may not assign this Agreement, in whole or in part, by operation of law or otherwise, without Juice’s express prior written consent. Any attempt to assign this Agreement without such consent, will be null and of no effect. Subject to the foregoing, this Agreement will bind and inure to the benefit of each party’s successors and permitted assigns. This Agreement will be governed by and construed in accordance with the laws of the State of California excluding that body of laws known as conflict of laws. The parties expressly agree that the United Nations Convention on Contracts for the International Sale of Goods will not apply. Any legal action or proceeding arising under this Agreement will be brought exclusively in the federal or state courts located in San Francisco, California, and the parties hereby irrevocably consent to the personal jurisdiction and venue therein. You agree to comply fully with all relevant export laws and regulations of the United States (“Export Laws”) to ensure that neither the Juice Service nor any direct product thereof are: (a) exported or re-exported directly or indirectly in violation of Export Laws; or (b) used for any purposes prohibited by the Export Laws. This Agreement constitutes the complete and exclusive understanding and agreement between the parties regarding its subject matter and supersedes all prior or contemporaneous agreements or understandings, written or oral, relating to its subject matter. Any waiver, modification or amendment of any provision of this Agreement will be effective only if in writing and signed by duly authorized representatives of both parties. If any provision of this Agreement is held to be unenforceable, this Agreement will remain in effect with the provision omitted, unless omission would frustrate the intent of the parties, in which case this Agreement will immediately terminate. The rights and obligations of the parties contained in the sections headed License Restrictions, Fees and Expenses, No Warranty, Indemnification, Limitation of Liability, and General will survive the termination of this Agreement or of any individual license granted hereunder.
 
 ***
+
+__Last update: March 12 2025__
