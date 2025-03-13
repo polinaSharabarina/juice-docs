@@ -1,8 +1,8 @@
 ---
-title:  'Terms & Conditions'
+title:  'Terms of Service'
 sidebar_position: 3
 ---
-# Terms & Conditions
+# Terms of Service
 
 **By downloading, installing, or using the Juice Service, you agree that you have read and understand this agreement and agree to be bound by its terms:**
 
