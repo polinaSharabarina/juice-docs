@@ -4,12 +4,8 @@ sidebar_position: 6
 ---
 # Sharing a GPU
 
-You can share a GPU with other juice users by making it available in a Pool.
+You can share a GPU with other Juice users by making it available in a Pool.
 
-:::note
-Sharing a GPU is only available on Juice workstations. 
-:::
- 
 
 ## Linux 
 
