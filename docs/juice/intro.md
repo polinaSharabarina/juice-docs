@@ -9,7 +9,7 @@ import Link from '@docusaurus/Link';
 
 ## What is Juice?
 
-Juice is GPU-over-IP: deployable GPUaaS software that allows GPUs to be pooled, shared, and remotely over a standard TCP/IP network.
+Juice is GPU-over-IP: deployable GPUaaS software that allows GPUs to be pooled, shared, and used remotely over a standard TCP/IP network.
 
 No modifications are necessary to application software - client applications are unaware that the physical GPU is remote. Juice software runs on physical machines, VMs, and containers on both Linux and Windows. The only hard requirements are physical GPUs to serve capacity into pools, and standard network connectivity.
 
@@ -35,15 +35,15 @@ Today Juice works with:
   - Revit
 - Any physical, virtual, or container-based system
  
-*_Graphics applications are not supported on Linux clients yet, but Linux systems can act as GPU agents for any workload including graphics._
+*_Graphics applications are not supported on Linux clients yet, but Linux systems can act as agents to provide GPUs for any workload including graphics._
 
 Once Juice is installed, launching an application to use remote GPU is as simple as running it through our command line tool `juice`. For example:
 
-Run PyTorch-based inference with `juice python pytorch/resnet.py`
+Run PyTorch-based inference with `juice run python pytorch/resnet.py`
 
 ## Why Juice?
 
-GPU use is hampered by a major limitation: a GPU-hungry application can only run in the same physical machine as the GPU itself. This limitation causes local-resourcing problems -- there's either not enough (or none, depending on the size and power needs of the device), or GPU capacity sits idle and wasted (global utilization of GPU capacity is estimated at 15%).
+GPU use is hampered by a major limitation: a GPU-hungry application can only run in the same physical machine as the GPU itself.  This limitation causes local-resourcing problems -- there's either not enough (or none, depending on the size and power needs of the device), or GPU capacity sits idle and wasted (global utilization of GPU capacity is estimated at 15%).
 
 By abstracting application hosts from physical GPUs, Juice decouples GPU-consuming clients from GPU-providing servers.  Benefits include (but are not limited to):
 

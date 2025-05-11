@@ -1,15 +1,20 @@
+---
+title:  'FAQ'
+position: 10
+---
+
 ### How can I get help or provide feedback?
 
 _Join the [Juice Labs Discord Server](https://discord.gg/xWHXNX8b3V), and ask in the #feedback-and-questions channel._
 
 ### What uses are supported by Juice across operating systems?
 
-| Client <--> Server | Supported APIs / Use Cases |
+| Client \<--\> Server | Supported APIs / Use Cases |
 |:---:|:---:|
-|Ubuntu <--> Ubuntu|CUDA only (ML/AI/HPC)*|
-|Ubuntu <--> Windows|CUDA only (ML/AI/HPC)*|
-|Windows <--> Windows|CUDA + Graphics|
-|Windows <--> Ubuntu|CUDA + Graphics|
+|Ubuntu \<--\> Ubuntu|CUDA only (ML/AI/HPC)*|
+|Ubuntu \<--\> Windows|CUDA only (ML/AI/HPC)*|
+|Windows \<--\> Windows|CUDA + Graphics|
+|Windows \<--\> Ubuntu|CUDA + Graphics|
 
 _*Basically, we aren't targeting support for graphical applications running on Linux because there is very little demand for this - but we cover everything else. You CAN run graphical applications on Windows vs. a Linux server._
 
@@ -17,8 +22,8 @@ _*Basically, we aren't targeting support for graphical applications running on L
 
 _Juice employs caching and compression to minimize the network traffic of any workload.  There are no fixed network requirements, but low bandwidth or high latency can cause applications to run more slowly than would be expected if running instead on a local PCIe-connected physical discrete GPU.  Of course, performance expectations will vary depending on the type of application.  Some examples of how expectations might relate to performance via Juice:_
 
-* _To run a AAA game at 60FPS, a minimum of 150Mbps upload from the client to the server is generally required, with 300Mbps+ being ideal. Client-server latency should be <50ms._
-* _To run an AI inference job like the ResNet and YOLO examples provided, where the result is not expected to return to the user instantly - there is no simple answer, as turnaround times will vary based on the profile of the data exchange between the application and the GPU combined with the bandwidth and latency between client and server._
+- _To run a AAA game at 60FPS, a minimum of 150Mbps upload from the client to the server is generally required, with 300Mbps+ being ideal. Client-server latency should be &lt; 50ms._
+- _To run an AI inference job like the ResNet and YOLO examples provided, where the result is not expected to return to the user instantly - there is no simple answer, as turnaround times will vary based on the profile of the data exchange between the application and the GPU combined with the bandwidth and latency between client and server._
 
 ### Can I run the Juice Client and Juice Server on the same machine just to try it out?
 
