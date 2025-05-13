@@ -30,12 +30,13 @@ Once your login is confirmed, the CLI will update your status to *logged in*. If
 
 3. To log in, run the command: 
     ```powershell
-    ./juice login -t "<reference name of your generated token>" 
+    ./juice login -t "<generated token>" 
     ```
 
 :::tip
-Use `m2m list` to show available tokens. 
+Use `./juice m2m list` to show available tokens. 
 
-To destroy a token use `m2m remove "<reference name of your generated token>"`.
+
+To destroy a token use `./juice m2m remove "<token ID>"`.
 :::
     
