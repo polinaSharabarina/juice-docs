@@ -22,17 +22,17 @@ You can share a GPU with other Juice users by making it available in a Pool.
 
 1. Install the agent service for a specific pool using:
 ```bash
-agent service install <poolid>
+juice agent service install <poolid>
 ```
 
 2. Use the following command to share your local GPU:
 ```bash
-agent service start
+juice agent service start
 ```
 
 3. Run this command to make the service start automatically upon reboot:
 ```bash
-agent service enable
+juice agent service enable
 ```
 
 
@@ -46,7 +46,7 @@ agent service enable
 
 3. Use the following command to start sharing your local GPU:
 ```bash
-agent run <poolid>
+juice agent run <poolid>
 ```
 
  
@@ -55,12 +55,12 @@ agent run <poolid>
 
 1. Install the agent service for a specific pool using:
 ```bash
-agent service install <poolid>
+juice agent service install <poolid>
 ```
 
 2. Use this command to share your local GPU into that pool:
 ```bash
-agent service start
+juice agent service start
 ```
     :::tip
     To stop sharing, use:
@@ -71,6 +71,6 @@ agent service start
 
 3. Run this command to make the service start sharing the local GPU into that pool automatically upon reboot:
 ```bash
-agent service enable
+juice agent service enable
 ```           
  

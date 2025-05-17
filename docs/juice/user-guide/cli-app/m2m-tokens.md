@@ -14,6 +14,8 @@ In Juice, Machine-to-Machine (M2M) tokens provide a secure way to authenticate a
 
 - Ideal for automated scripts, CI/CD pipelines, and server-to-server communication 
 
+- Have a maximum life-time of 365 days
+
 
 ## Creating and Managing M2M Tokens 
 
@@ -31,6 +33,8 @@ In Juice, Machine-to-Machine (M2M) tokens provide a secure way to authenticate a
     ```powershell
     ./juice m2m remove '<token name>'
     ```
+
+By default a token will last 30 days, but by specifying the --expire-days parameter on creation you can extend this out to a maximum of 365 days.
 
 ## Using M2M Tokens 
 
