@@ -7,12 +7,12 @@ sidebar_position: 1
 
 ### Windows
 
-Both the Client and GPU Agent are supported on Windows 10 and Windows 11. 
+Both the **Client** and **GPU Agent** are supported on Windows 10 and Windows 11. 
 
 
 ### Linux
 
-The client and GPU agent are supported on Debian based distributions on version 11 and greater (like Ubuntu 20.04). Other distributions with a similar or newer release date or newer are also supported. 
+The client and GPU agent are supported on Debian based distributions on version 11 and greater (like Ubuntu 20.04). Other distributions with a similar or newer release date are also supported. 
 
 :::note
 Currently, only the client is supported when running in WSL on Windows.
@@ -49,7 +49,7 @@ If you're running on a virtual machine with graphics drivers that don't support 
     These packages can be installed by running the command: 
         
         ```powershell
-        apt update && apt install libatomic1 libnuma1
+        sudo apt update && sudo apt install libatomic1 libnuma1
         ```
     :::
 
@@ -62,7 +62,7 @@ On all platforms an NVIDIA GPU with an installed driver version 535 or greater, 
 
 - Windows 10 or 11 
 
-### Linux s
+### Linux
 
 - Ubuntu 20.04 or greater, Debian 11 or greater 
 
@@ -83,7 +83,7 @@ On all platforms an NVIDIA GPU with an installed driver version 535 or greater, 
     These packages can be installed by running the command: 
         
         ```powershell
-        apt update && apt install libvulkan1 libgl1 libglib2.0-0 libatomic1 libnuma1
+        sudo apt update && sudo apt install libvulkan1 libgl1 libglib2.0-0 libatomic1 libnuma1
         ```
     :::
 
